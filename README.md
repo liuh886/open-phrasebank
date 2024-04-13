@@ -1,7 +1,10 @@
 # Open Phrasebank
 
-
-
+```bash
+pip install openphrasebank
+import openphrasebank as opb
+opb.get_phrasebank('academic_phrasebank.md')
+```
 
 Building your own phrasebank. 
 
@@ -13,8 +16,8 @@ Building your own phrasebank.
 ## Available Phrase Bank
 
 | No. | Phrasebank                                                                                                           | Source                                                                                                          | N-gram Length | Lines | Comments                                                                      |
-| --- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------- | ----- | ----------------------------------------------------------------------------- |
-| 1   | [academic_phrasebank.md](https://github.com/liuh886/open_phrasebank/blob/main/academic_phrasebank.md)                | Book - [Academic Phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/data/Academic_Phrasebank.pdf) | 2-5           | 2190  | Extract from pdf and token by spaCy                                           |
+|-----|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|-------|-------------------------------------------------------------------------------|
+| 1   | [academic_phrasebank.md](https://github.com/liuh886/open_phrasebank/blob/main/academic_phrasebank.txt)               | Book - [Academic Phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/data/Academic_Phrasebank.pdf) | 2-5           | 2190  | Extract from pdf and token by spaCy                                           |
 | 2   | elsevier_phrasebank.md                                                                                               |                                                                                                                 | 2-5           |       | Extract by n-gram frequency                                                   |
 | 3   | bawe_1000.md                                                                                                         | Corpus - [British Academic Written English](https://app.sketchengine.eu/#dashboard?corpname=preloaded%2Fbawe2)  | 2-6           | 1000  | Due to inaccessible, only most frequent used 1000 n-grams (n: 2-6) list here. |
 | 4   | [google-1000-english.txt](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt) |                                                                                                                 | 1             | 10000 |                                                                               |
