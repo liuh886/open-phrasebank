@@ -1,0 +1,570 @@
+abandon	abandoned, abandoning, abandonment, abandons, e.g.	abandon
+abstract	abstraction, abstractions, abstractly, abstracts, e.g.	abstract
+academy	academia, academic, academically, academics, academies, e.g.	academy
+access	accessed, accesses, accessibility, accessible, accessing, inaccessible	access
+accommodate	accommodated, accommodates, accommodating, accommodation	accommodate
+accompany	accompanied, accompanies, accompaniment, accompanying, unaccompanied	accompany
+accumulate	accumulated, accumulating, accumulation, accumulates	accumulate
+accurate	accuracy, accurately, inaccuracy, inaccuracies, inaccurate	accurate
+achieve	achievable, achieved, achievement, achievements, achieves, achieving	achieve
+acknowledge	acknowledged, acknowledges, acknowledging, acknowledgement, acknowledgements	acknowledge
+acquire	acquired, acquires, acquiring, acquisition, acquisitions	acquire
+adapt	adaptability, adaptable, adaptation, adaptations, adapted, adapting, adaptive, adapts	adapt
+adequate	adequacy, adequately, inadequacies, inadequacy, inadequate, inadequately	adequate
+adjacent	 	adjacent
+adjust	adjusted, adjusting, adjustment, adjustments, adjusts, readjust, readjusted, readjusting, readjustment, readjustments, readjusts	adjust
+administrate	administrates, administration, administrations, administrative, administratively, administrator, administrators	administrate
+adult	adulthood, adults	adult
+advocate	advocacy, advocated, advocates, advocating	advocate
+affect	affected, affecting, affective, affectively, affects, unaffected	affect
+aggregate	aggregated, aggregates, aggregating, aggregation	aggregate
+aid	aided, aiding, aids, unaided	aid
+albeit	 	albeit
+allocate	allocated, allocates, allocating, allocation, allocations	allocate
+alter	alterable, alteration, alterations, altered, altering, alternate, alternating, alters, unalterable, unaltered	alter
+alternative	alternatively, alternatives	alternative
+ambiguous	ambiguities, ambiguity, unambiguous, unambiguously	ambiguous
+amend	amended, amending, amendment, amendments, amends	amend
+analogy	analogies, analogous	analogy
+analyse	analysed, analyser, analysers, analyses, analysing, analysis, analyst, analysts, analytic, analytical, analytically	analyse
+annual	annually	annual
+anticipate	anticipated, anticipates, anticipating, anticipation, unanticipated	anticipate
+apparent	apparently	apparent
+append	appendix, appended, appends, appending, appendices, appendixes	append
+appreciate	appreciable, appreciably, appreciated, appreciates, appreciating, appreciation, unappreciated	appreciate
+approach	approachable, approached, approaches, approaching, unapproachable	approach
+appropriate	appropriacy, appropriately, appropriateness, inappropriacy, inappropriate, inappropriately	appropriate
+approximate	approximated, approximately, approximates, approximating, approximation, approximations	approximate
+arbitrary	arbitrariness, arbitrarily	arbitrary
+area	areas	area
+aspect	aspects	aspect
+assemble	assembled, assembles, assemblies, assembling, assembly	assemble
+assess	assessable, assessed, assesses, assessing, assessment, assessments, reassess, reassessed, reassessing, reassessment, unassessed	assess
+assign	assigned, assigning, assignment, assignments, assigns, reassign, reassigned, reassigning, reassigns, unassigned	assign
+assist	assistance, assistant, assistants, assisted, assisting, assists, unassisted	assist
+assume	assumed, assumes, assuming, assumption, assumptions	assume
+assure	assurance, assurances, assured, assuredly, assures, assuring	assure
+attach	attached, attaches, attaching, attachment, attachments, unattached	attach
+attain	attainable, attained, attaining, attainment, attainments, attains, unattainable	attain
+attitude	attitudes	attitude
+attribute	attributable, attributed, attributes, attributing, attribution	attribute
+author	authored, authoring, authors, authorship	author
+authority	authoritative, authorities	authority
+automate	automatic, automated, automates, automating, automatically, automation	automate
+available	availability, unavailable	available
+aware	awareness, unaware	aware
+behalf	 	behalf
+benefit	beneficial, beneficiary, beneficiaries, benefited, benefiting, benefits	benefit
+bias	biased, biases, biasing, unbiased	bias
+bond	bonded, bonding, bonds	bond
+brief	brevity, briefed, briefing, briefly, briefs	brief
+bulk	bulky	bulk
+capable	capabilities, capability, incapable	capable
+capacity	capacities, incapacitate, incapacitated	capacity
+category	categories, categorisation, categorise, categorised, categorises, categorising, categorizing	category
+cease	ceased, ceaseless, ceases, ceasing	cease
+challenge	challenged, challenger, challengers, challenges, challenging	challenge
+channel	channelled, channelling, channels	channel
+chapter	chapters	chapter
+chart	charted, charting, charts, uncharted	chart
+chemical	chemically, chemicals	chemical
+circumstance	circumstances	circumstance
+cite	citation, citations, cited, citing, cites	cite
+civil	 	civil
+clarify	clarification, clarified, clarifies, clarifying, clarity	clarify
+classic	classical, classics	classic
+clause	clauses	clause
+code	coded, codes, coding	code
+coherent	coherence, coherently, incoherent, incoherently	coherent
+coincide	coincided, coincides, coinciding, coincidence, coincidences, coincident, coincidental	coincide
+collapse	collapsed, collapses, collapsible, collapsing	collapse
+colleague	colleagues	colleague
+commence	commenced, commences, commencement, commencing, recommences, recommenced, recommencing	commence
+comment	commentaries, commentary, commentator, commentators, commented, commenting, comments	comment
+commission	commissioned, commissioner, commissioners, commissioning, commissions	commission
+commit	commitment, commitments, commits, committed, committing	commit
+commodity	commodities	commodity
+communicate	communicable, communicated, communicates, communicating, communication, communications, communicative, communicatively, uncommunicative	communicate
+community	communities	community
+compatible	compatibility, incompatibility, incompatible	compatible
+compensate	compensated, compensates, compensating, compensation, compensations, compensatory	compensate
+compile	compilation, compilations, compiled, compiles, compiling	compile
+complement	complementary, complemented, complementing, complements	complement
+complex	complexities, complexity	complex
+component	componentry, components	component
+compound	compounded, compounding, compounds	compound
+comprehensive	comprehensively	comprehensive
+comprise	comprised, comprises, comprising	comprise
+compute	computation, computational, computations, computable, computer, computed, computerised, computers, computing	compute
+conceive	conceivable, conceivably, conceived, conceives, conceiving, inconceivable, inconceivably	conceive
+concentrate	concentrated, concentrates, concentrating, concentration	concentrate
+concept	conception, concepts, conceptual, conceptualisation, conceptualise, conceptualised, conceptualises, conceptualising, conceptually	concept
+conclude	concluded, concludes, concluding, conclusion, conclusions, conclusive, conclusively, inconclusive, inconclusively	conclude
+concurrent	concurrently	concurrent
+conduct	conducted, conducting, conducts	conduct
+confer	conference, conferences, conferred, conferring, confers	confer
+confine	confined, confines, confining, unconfined	confine
+confirm	confirmation, confirmed, confirming, confirms	confirm
+conflict	conflicted, conflicting, conflicts	conflict
+conform	conformable, conformability, conformance, conformation, conformed, conforming, conformist, conformists, conformity, conforms, nonconformist, nonconformists, nonconformity, non-conformist, non-conformists, non-conformity	conform
+consent	consensus, consented, consenting, consents	consent
+consequent	consequence, consequences, consequently	consequent
+considerable	considerably	considerable
+consist	consisted, consistency, consistent, consistently, consisting, consists, inconsistencies, inconsistency, inconsistent	consist
+constant	constancy, constantly, constants, inconstancy, inconstantly	constant
+constitute	constituencies, constituency, constituent, constituents, constituted, constitutes, constituting, constitution, constitutions, constitutional, constitutionally, constitutive, unconstitutional	constitute
+constrain	constrained, constraining, constrains, constraint, constraints, unconstrained	constrain
+construct	constructed, constructing, construction, constructions, constructive, constructs, reconstruct, reconstructed, reconstructing, reconstruction, reconstructs	construct
+consult	consultancy, consultant, consultants, consultation, consultations, consultative, consulted, consults, consulting	consult
+consume	consumed, consumer, consumers, consumes, consuming, consumption	consume
+contact	contactable, contacted, contacting, contacts	contact
+contemporary	contemporaries	contemporary
+context	contexts, contextual, contextualise, contextualised, contextualising, uncontextualised	context
+contract	contracted, contracting, contractor, contractors, contracts	contract
+contradict	contradicted, contradicting, contradiction, contradictions, contradictory, contradicts	contradict
+contrary	contrarily	contrary
+contrast	contrasted, contrasting, contrastive, contrasts	contrast
+contribute	contributed, contributes, contributing, contribution, contributions, contributor, contributors	contribute
+controversy	controversies, controversial, controversially, uncontroversial	controversy
+convene	convention, convenes, convened, convening, conventional, conventionally, conventions, unconventional	convene
+converse	conversely	converse
+convert	conversion, conversions, converted, convertible, converting, converts	convert
+convince	convinced, convinces, convincing, convincingly, unconvinced	convince
+cooperate	cooperated, cooperates, cooperating, cooperation, cooperative, cooperatively, co-operate, co-operated, co-operates, co-operation, co-operative, co-operatively	cooperate
+coordinate	coordinated, coordinates, coordinating, coordination, coordinator, coordinators, co-ordinate, co-ordinated, co-ordinates, co-ordinating, co-ordination, co-ordinator, co-ordinators	coordinate
+core	cores, coring, cored	core
+corporate	corporates, corporation, corporations	corporate
+correspond	corresponded, correspondence, corresponding, correspondingly, corresponds	correspond
+couple	coupled, coupling, couples	couple
+create	created, creates, creating, creation, creations, creative, creatively, creativity, creator, creators, recreate, recreated, recreates, recreating	create
+credit	credited, crediting, creditor, creditors, credits	credit
+criteria	criterion	criteria
+crucial	crucially	crucial
+culture	cultural, culturally, cultured, cultures, uncultured	culture
+currency	currencies	currency
+cycle	cycled, cycles, cyclic, cyclical, cycling	cycle
+data	 	data
+debate	debatable, debated, debates, debating	debate
+decade	decades	decade
+decline	declined, declines, declining	decline
+deduce	deduced, deduces, deducing, deduction, deductions	deduce
+define	definable, defined, defines, defining, definition, definitions, redefine, redefined, redefines, redefining, undefined	define
+definite	definitely, definitive, indefinite, indefinitely	definite
+demonstrate	demonstrable, demonstrably, demonstrated, demonstrates, demonstrating, demonstration, demonstrations, demonstrative, demonstratively, demonstrator, demonstrators	demonstrate
+denote	denotation, denotations, denoted, denotes, denoting	denote
+deny	deniable, denial, denials, denied, denies, denying, undeniable	deny
+depress	depressed, depresses, depressing, depression	depress
+derive	derivation, derivations, derivative, derivatives, derived, derives, deriving	derive
+design	designed, designer, designers, designing, designs	design
+despite	 	despite
+detect	detectable, detected, detecting, detection, detective, detectives, detector, detectors, detects	detect
+deviate	deviated, deviates, deviating, deviation, deviations	deviate
+device	devices	device
+devote	devoted, devotedly, devotes, devoting, devotion, devotions	devote
+differentiate	differentiated, differentiates, differentiating, differentiation	differentiate
+dimension	dimensional, dimensions, multidimensional	dimension
+diminish	diminished, diminishes, diminishing, diminution, undiminished	diminish
+discrete	discretely, discretion, discretionary, indiscrete, indiscretion	discrete
+discriminate	discriminated, discriminates, discriminating, discrimination	discriminate
+displace	displaced, displacement, displaces, displacing	displace
+display	displayed, displaying, displays	display
+dispose	disposable, disposal, disposed, disposes, disposing	dispose
+distinct	distinction, distinctions, distinctive, distinctively, distinctly, indistinct, indistinctly	distinct
+distort	distorted, distorting, distortion, distortions, distorts	distort
+distribute	distributed, distributing, distribution, distributional, distributions, distributive, distributor, distributors, redistribute, redistributed, redistributes, redistributing, redistribution	distribute
+diverse	diversely, diversification, diversified, diversifies, diversify, diversifying, diversity	diverse
+document	documentation, documented, documenting, documents	document
+domain	domains	domain
+domestic	domestically, domesticate, domesticated, domesticating, domestics	domestic
+dominate	dominance, dominant, dominated, dominates, dominating, domination	dominate
+draft	drafted, drafting, drafts, redraft, redrafted, redrafting, redrafts	draft
+drama	dramas, dramatic, dramatically, dramatise, dramatised, dramatising, dramatises, dramatisation, dramatisations, dramatist, dramatists, dramatization, dramatizations, dramatizing	drama
+duration	 	duration
+dynamic	dynamically, dynamics	dynamic
+economy	economic, economical, economically, economics, economies, economist, economists, uneconomical	economy
+edit	edited, editing, edition, editions, editor, editorial, editorials, editors, edits	edit
+element	elements	element
+eliminate	eliminated, eliminates, eliminating, elimination	eliminate
+emerge	emerged, emergence, emergent, emerges, emerging	emerge
+emphasis	emphasise, emphasised, emphasising, emphatic, emphatically	emphasis
+empirical	empirically, empiricism	empirical
+enable	enabled, enables, enabling	enable
+encounter	encountered, encountering, encounters	encounter
+energy	energetic, energetically, energies	energy
+enforce	enforced, enforcement, enforces, enforcing	enforce
+enhance	enhanced, enhancement, enhances, enhancing	enhance
+enormous	enormity, enormously	enormous
+ensure	ensured, ensures, ensuring	ensure
+entity	entities	entity
+environment	environmental, environmentalist, environmentalists, environmentally, environments	environment
+equate	equated, equates, equating, equation, equations	equate
+equip	equipment, equipped, equipping, equips	equip
+equivalent	equivalence	equivalent
+erode	eroded, erodes, eroding, erosion	erode
+error	erroneous, erroneously, errors	error
+establish	disestablish, disestablished, disestablishes, disestablishing, disestablishment, established, establishes, establishing, establishment, establishments	establish
+estate	estates	estate
+estimate	estimated, estimates, estimating, estimation, estimations, over-estimate, overestimate, overestimated, overestimates, overestimating, underestimate, underestimated, underestimates, underestimating	estimate
+ethic	ethical, ethically, ethics, unethical	ethic
+ethnic	ethnicity	ethnic
+evaluate	evaluated, evaluates, evaluating, evaluation, evaluations, evaluative, re-evaluate, re-evaluated, re-evaluates, re-evaluating, re-evaluation	evaluate
+eventual	eventuality, eventually	eventual
+evident	evidenced, evidence, evidential, evidently	evident
+evolve	evolution, evolved, evolving, evolves, evolutionary, evolutionist, evolutionists	evolve
+exceed	exceeded, exceeding, exceeds	exceed
+exclude	excluded, excludes, excluding, exclusion, exclusionary, exclusionist, exclusions, exclusive, exclusively	exclude
+exhibit	exhibited, exhibiting, exhibition, exhibitions, exhibits	exhibit
+expand	expanded, expanding, expands, expansion, expansionism, expansive	expand
+expert	expertise, expertly, experts	expert
+explicit	explicitly	explicit
+exploit	exploitation, exploited, exploiting, exploits	exploit
+export	exported, exporter, exporters, exporting, exports	export
+expose	exposed, exposes, exposing, exposure, exposures	expose
+external	externalisation, externalise, externalised, externalises, externalising, externality	external
+extract	extracted, extracting, extraction, extracts	extract
+facilitate	facilitated, facilitates, facilities, facilitating, facilitation, facilitator, facilitators, facility	facilitate
+factor	factored, factoring, factors	factor
+feature	featured, features, featuring	feature
+federal	federation, federations	federal
+fee	fees	fee
+file	filed, files, filing	file
+final	finalise, finalised, finalises, finalising, finality, finally, finals	final
+finance	financed, finances, financial, financially, financier, financiers, financing	finance
+finite	infinite, infinitely	finite
+flexible	flexibility, inflexible, inflexibility	flexible
+fluctuate	fluctuated, fluctuates, fluctuating, fluctuation, fluctuations	fluctuate
+focus	focused, focuses, focusing, refocus, refocused, refocuses, refocusing	focus
+format	formatted, formatting, formats	format
+formula	formulae, formulas, formulate, formulated, formulating, formulation, formulations, reformulate, reformulated, reformulating, reformulation, reformulations	formula
+forthcoming	 	forthcoming
+found	founded, founder, founders, founding, unfounded	found
+foundation	foundations	foundation
+framework	frameworks	framework
+function	functional, functionally, functioned, functioning, functions	function
+fund	funded, funder, funders, funding, funds	fund
+fundamental	fundamentally	fundamental
+furthermore	 	furthermore
+gender	genders	gender
+generate	generated, generates, generating	generate
+generation	generations	generation
+globe	global, globally, globalisation, globalization	globe
+goal	goals	goal
+grade	graded, grades, grading	grade
+grant	granted, granting, grants	grant
+guarantee	guaranteed, guaranteeing, guarantees	guarantee
+guideline	guidelines	guideline
+hence	 	hence
+hierarchy	hierarchical, hierarchies	hierarchy
+highlight	highlighted, highlighting, highlights	highlight
+hypothesis	hypotheses, hypothesise, hypothesised, hypothesises, hypothesising, hypothetical, hypothetically	hypothesis
+identical	identically	identical
+identify	identifiable, identification, identified, identifies, identifying, identities, identity, unidentifiable	identify
+ideology	ideological, ideologically, ideologies	ideology
+ignorant	ignorance, ignore, ignored, ignores, ignoring	ignorant
+illustrate	illustrated, illustrates, illustrating, illustration, illustrations, illustrative	illustrate
+image	imagery, images	image
+immigrate	immigrant, immigrants, immigrated, immigrates, immigrating, immigration	immigrate
+impact	impacted, impacting, impacts	impact
+implement	implementation, implemented, implementing, implements	implement
+implicate	implicated, implicates, implicating, implication, implications	implicate
+implicit	implicitly	implicit
+imply	implied, implies, implying	imply
+impose	imposed, imposes, imposing, imposition	impose
+incentive	incentives	incentive
+incidence	incident, incidentally, incidents	incidence
+incline	inclination, inclinations,inclined, inclines, inclining	incline
+income	incomes	income
+incorporate	incorporated, incorporates, incorporating, incorporation	incorporate
+index	indexed, indexes, indexing	index
+indicate	indicated, indicates, indicating, indication, indications, indicative, indicator, indicators	indicate
+individual	individualised, individuality, individualism, individualist, individualists, individualistic, individually, individuals	individual
+induce	induced, induces, inducing, induction	induce
+inevitable	inevitability, inevitably	inevitable
+infer	inference, inferences, inferred, inferring, infers	infer
+infrastructure	infrastructures	infrastructure
+inherent	inherently	inherent
+inhibit	inhibited, inhibiting, inhibition, inhibitions, inhibits	inhibit
+initial	initially	initial
+initiate	initiated, initiates, initiating, initiation, initiations, initiative, initiatives, initiator, initiators	initiate
+injure	injured, injures, injuries, injuring, injury, uninjured	injure
+innovate	innovation, innovated, innovates, innovating, innovations, innovative, innovator, innovators	innovate
+input	inputs	input
+insert	inserted, inserting, insertion, inserts	insert
+insight	insightful, insights	insight
+inspect	inspected, inspecting, inspection, inspections, inspector, inspectors, inspects	inspect
+instance	instances	instance
+institute	instituted, institutes, instituting, institution, institutional, institutionalise, institutionalised, institutionalises, institutionalising, institutionally, institutions	institute
+instruct	instruction, instructed, instructing, instructions, instructive, instructor, instructors, instructs	instruct
+integral	 	integral
+integrate	integrated, integrates, integrating, integration	integrate
+integrity	 	integrity
+intelligent	intelligence, intelligently, unintelligent	intelligent
+intense	intensely, intenseness, intensification, intensified, intensifies, intensify, intensifying, intension, intensity, intensive, intensively	intense
+interact	interacted, interacting, interaction, interactions, interactive, interactively, interacts	interact
+intermediate	 	intermediate
+internal	internalise, internalised, internalises, internalising, internally	internal
+interpret	interpretation, interpretations, interpretative, interpreted, interpreting, interpretive, interprets, misinterpret, misinterpretation, misinterpretations, misinterpreted, misinterpreting, misinterprets, reinterpret, reinterpreted, reinterprets, reinterpreting, reinterpretation, reinterpretations	interpret
+interval	intervals	interval
+intervene	intervened, intervenes, intervening, intervention, interventions	intervene
+intrinsic	intrinsically	intrinsic
+invest	invested, investing, investment, investments, investor, investors, invests, reinvest, reinvested, reinvesting, reinvestment, reinvests	invest
+investigate	investigated, investigates, investigating, investigation, investigations, investigative, investigator, investigators	investigate
+invoke	invoked, invokes, invoking	invoke
+involve	involved, involvement, involves, involving, uninvolved	involve
+isolate	isolated, isolates, isolating, isolation, isolationism	isolate
+issue	issued, issues, issuing	issue
+item	itemisation, itemise, itemised, itemises, itemising, items	item
+job	jobs	job
+journal	journals	journal
+justify	justifiable, justifiably, justification, justifications, justified, justifies, justifying, unjustified	justify
+label	labelled, labelling, labels	label
+labour	laboured, labouring, labours	labour
+layer	layered, layering, layers	layer
+lecture	lectured, lecturer, lecturers, lectures, lecturing	lecture
+legal	illegal, illegality, illegally, legality, legally	legal
+legislate	legislated, legislates, legislating, legislation, legislative, legislator, legislators, legislature	legislate
+levy	levies	levy
+liberal	liberalise, liberalism, liberalisation, liberalised, liberalises, liberalising, liberalization, liberate, liberated, liberates, liberation, liberations, liberating, liberator, liberators, liberally, liberals	liberal
+licence	licences, license, licensed, licensing, licenses, unlicensed	licence
+likewise	 	likewise
+link	linkage, linkages, linked, linking, links	link
+locate	located, locating, location, locations, relocate, relocated, relocates, relocating, relocation	locate
+logic	illogical, illogically, logical, logically, logician, logicians	logic
+maintain	maintained, maintaining, maintains, maintenance	maintain
+major	majorities, majority	major
+manipulate	manipulated, manipulates, manipulating, manipulation, manipulations, manipulative	manipulate
+manual	manually, manuals	manual
+margin	marginal, marginally, margins	margin
+mature	immature, immaturity, maturation, maturational, matured, matures, maturing, maturity	mature
+maximise	max, maximised, maximises, maximising, maximisation, maximum	maximise
+mechanism	mechanisms	mechanism
+media	 	media
+mediate	mediated, mediates, mediating, mediation	mediate
+medical	medically	medical
+medium	 	medium
+mental	mentality, mentally	mental
+method	methodical, methodological, methodologies, methodology, methods	method
+migrate	migrant, migrants, migrated, migrates, migrating, migration, migrations, migratory	migrate
+military	 	military
+minimal	minimalisation, minimalise, minimalises, minimalised, minimalising, minimalist, minimalists, minimalistic, minimally	minimal
+minimise	minimised, minimises, minimising	minimise
+minimum	 	minimum
+ministry	ministered, ministering, ministerial, ministries	ministry
+minor	minorities, minority, minors	minor
+mode	modes	mode
+modify	modification, modifications, modified, modifies, modifying, unmodified	modify
+monitor	monitored, monitoring, monitors, unmonitored	monitor
+motive	motivate, motivated, motivates, motivating, motivation, motivations, motives, unmotivated	motive
+mutual	mutually	mutual
+negate	negative, negated, negates, negating, negatively, negatives	negate
+network	networked, networking, networks	network
+neutral	neutralisation, neutralise, neutralised, neutralises, neutralising, neutrality	neutral
+nevertheless	 	nevertheless
+nonetheless	 	nonetheless
+norm	norms	norm
+normal	abnormal, abnormally, normalisation, normalise, normalised, normalises, normalising, normality, normally	normal
+notion	notions	notion
+notwithstanding	 	notwithstanding
+nuclear	 	nuclear
+objective	objectively, objectivity	objective
+obtain	obtainable, obtained, obtaining, obtains, unobtainable	obtain
+obvious	obviously	obvious
+occupy	occupancy, occupant, occupants, occupation,occupational, occupations, occupied, occupier, occupiers, occupies, occupying	occupy
+occur	occurred, occurrence, occurrences, occurring, occurs, reoccur, reoccurred, reoccurring, reoccurs	occur
+odd	odds	odd
+offset	offsets, offsetting	offset
+ongoing	 	ongoing
+option	optional, options	option
+orient	orientate, orientated, orientates, orientation, orientating, oriented, orienting, orients, reorient, reorientation	orient
+outcome	outcomes	outcome
+output	outputs	output
+overall	 	overall
+overlap	overlapped, overlapping, overlaps	overlap
+overseas	 	overseas
+panel	panelled, panelling, panels	panel
+paradigm	paradigms	paradigm
+paragraph	paragraphing, paragraphs	paragraph
+parallel	paralleled, parallels, unparalleled	parallel
+parameter	parameters	parameter
+participate	participant, participants, participated, participates, participating, participation, participatory	participate
+partner	partners, partnership, partnerships	partner
+passive	passively, passivity	passive
+perceive	perceived, perceives, perceiving, perception, perceptions	perceive
+percent	percentage, percentages	percent
+period	periodic, periodical, periodically, periodicals, periods	period
+persist	persisted, persistence, persistent, persistently, persisting, persists	persist
+perspective	perspectives	perspective
+phase	phased, phases, phasing	phase
+phenomenon	phenomena, phenomenal	phenomenon
+philosophy	philosopher, philosophers, philosophical, philosophically, philosophies, philosophise, philosophised, philosophises, philosophising	philosophy
+physical	physically	physical
+plus	pluses	plus
+policy	policies	policy
+portion	portions	portion
+pose	posed, poses, posing	pose
+positive	positively	positive
+potential	potentially	potential
+practitioner	practitioners	practitioner
+precede	preceded, precedence, precedent, precedes, preceding, unprecedented	precede
+precise	imprecise, precisely, precision	precise
+predict	predictability, predictable, predictably, predicted, predicting, prediction, predictions, predicts, unpredictability, unpredictable	predict
+predominant	predominance, predominantly, predominate, predominated, predominates, predominating	predominant
+preliminary	preliminaries	preliminary
+presume	presumably, presumed, presumes, presuming, presumption, presumptions, presumptuous	presume
+previous	previously	previous
+primary	primarily	primary
+prime	primacy	prime
+principal	principally	principal
+principle	principled, principles, unprincipled	principle
+prior	 	prior
+priority	priorities, prioritisation, prioritise, prioritised, prioritises, prioritising	priority
+proceed	procedural, procedure, procedures, proceeded, proceeding, proceedings, proceeds	proceed
+process	processed, processes, processing	process
+professional	professionally, professionals, professionalism	professional
+prohibit	prohibited, prohibiting, prohibition, prohibitions, prohibitive, prohibits	prohibit
+project	projected, projecting, projection, projections, projects	project
+promote	promoted, promoter, promoters, promotes, promoting, promotion, promotions	promote
+proportion	disproportion, disproportionate, disproportionately, proportional, proportionally, proportionate, proportionately, proportions	proportion
+prospect	prospective, prospects	prospect
+protocol	protocols	protocol
+psychology	psychological, psychologically, psychologist, psychologists	psychology
+publication	publications	publication
+publish	published, publisher, publishers, publishes, publishing, unpublished	publish
+purchase	purchased, purchaser, purchasers, purchases, purchasing	purchase
+pursue	pursued, pursues, pursuing, pursuit, pursuits	pursue
+qualitative	qualitatively	qualitative
+quote	quotation, quotations, quoted, quotes, quoting	quote
+radical	radically, radicals	radical
+random	randomly, randomness	random
+range	ranged, ranges, ranging	range
+ratio	ratios	ratio
+rational	irrational, rationalisation, rationalisations, rationalise, rationalised, rationalises, rationalising, rationalism, rationality, rationally	rational
+react	reacted, reacts, reacting, reaction, reactionaries, reactionary, reactions, reactive, reactivate, reactivation, reactor, reactors	react
+recover	recoverable, recovered, recovering, recovers, recovery	recover
+refine	refined, refinement, refinements, refines, refining	refine
+regime	regimes	regime
+region	regional, regionally, regions	region
+register	deregister, deregistered, deregistering, deregisters, deregistration, registered, registering, registers, registration	register
+regulate	deregulated, deregulates, deregulating, deregulation, regulated, regulates, regulating, regulation,regulations, regulator, regulators, regulatory, unregulated	regulate
+reinforce	reinforced, reinforcement, reinforcements, reinforces, reinforcing	reinforce
+reject	rejected, rejecting, rejection, rejects, rejections	reject
+relax	relaxation, relaxed, relaxes, relaxing	relax
+release	released, releases, releasing	release
+relevant	irrelevance, irrelevant, relevance	relevant
+reluctance	reluctant, reluctantly	reluctance
+rely	reliability, reliable, reliably, reliance, reliant, relied, relies, relying, unreliable	rely
+remove	removable, removal, removals, removed, removes, removing	remove
+require	required, requirement, requirements, requires, requiring	require
+research	researched, researcher, researchers, researches, researching	research
+reside	resided, residence, resident, residential, residents, resides, residing	reside
+resolve	resolution, resolved, resolves, resolving, unresolved	resolve
+resource	resourced, resourceful, resources, resourcing, unresourceful, under-resourced	resource
+respond	responded, respondent, respondents, responding, responds, response, responses, responsive, responsiveness, unresponsive	respond
+restore	restoration, restored, restores, restoring	restore
+restrain	restrained, restraining, restrains, restraint, restraints, unrestrained	restrain
+restrict	restricted, restricting, restriction, restrictions, restrictive, restrictively, restricts, unrestricted, unrestrictive	restrict
+retain	retained, retaining, retainer, retainers, retains, retention, retentive	retain
+reveal	revealed, revealing, reveals, revelation, revelations	reveal
+revenue	revenues	revenue
+reverse	reversal, reversed, reverses, reversible, reversing, reversals, irreversible	reverse
+revise	revised, revises, revising, revision, revisions	revise
+revolution	revolutionary, revolutionaries, revolutionise, revolutionised, revolutionises, revolutionising, revolutionist, revolutionists, revolutions	revolution
+rigid	rigidities, rigidity, rigidly	rigid
+role	roles	role
+route	routed, routes, routing	route
+scenario	scenarios	scenario
+schedule	reschedule, rescheduled, reschedules, rescheduling, scheduled, schedules, scheduling, unscheduled	schedule
+scheme	schematic, schematically, schemed, schemes, scheming	scheme
+scope	 	scope
+section	sectioned, sectioning, sections	section
+sector	sectors	sector
+secure	insecure, insecurities, insecurity, secured, securely, secures, securing, securities, security	secure
+seek	seeking, seeks, sought	seek
+select	selected, selecting, selection, selections, selective, selectively, selector, selectors, selects	select
+sequence	sequenced, sequences, sequencing, sequential, sequentially	sequence
+series	 	series
+sex	sexes, sexism, sexual, sexuality, sexually	sex
+shift	shifted, shifting, shifts	shift
+significant	insignificant, insignificantly, significance, significantly, signified, signifies, signify, signifying	significant
+similar	dissimilar, similarities, similarity, similarly	similar
+simulate	simulated, simulates, simulating, simulation	simulate
+site	sites	site
+so-called	 	so-called
+sole	solely	sole
+somewhat	 	somewhat
+source	sourced, sources, sourcing	source
+specific	specifically, specification, specifications, specificity, specifics	specific
+specify	specifiable, specified, specifies, specifying, unspecified	specify
+sphere	spheres, spherical, spherically	sphere
+stable	instability, stabilisation, stabilise, stabilised, stabilises, stabilising, stability, unstable	stable
+statistic	statistician, statisticians, statistical, statistically, statistics	statistic
+status	 	status
+straightforward	 	straightforward
+strategy	strategic, strategies, strategically, strategist, strategists	strategy
+stress	stressed, stresses, stressful, stressing, unstressed	stress
+structure	restructure, restructured, restructures, restructuring, structural, structurally, structured, structures, structuring, unstructured	structure
+style	styled, styles, styling, stylish, stylise, stylised, stylises, stylising	style
+submit	submission, submissions, submits, submitted, submitting	submit
+subordinate	subordinates, subordination	subordinate
+subsequent	subsequently	subsequent
+subsidy	subsidiary, subsidies, subsidise, subsidised, subsidises, subsidising	subsidy
+substitute	substituted, substitutes, substituting, substitution	substitute
+successor	succession, successions, successive, successively, successors	successor
+sufficient	sufficiency, insufficient, insufficiently, sufficiently	sufficient
+sum	summation, summed, summing, sums	sum
+summary	summaries, summarise, summarised, summarises, summarising, summarisation, summarisations	summary
+supplement	supplementary, supplemented, supplementing, supplements	supplement
+survey	surveyed, surveying, surveys	survey
+survive	survival, survived, survives, surviving, survivor, survivors	survive
+suspend	suspended, suspending, suspends, suspension	suspend
+sustain	sustainable, sustainability, sustained, sustaining, sustains, sustenance, unsustainable	sustain
+symbol	symbolic, symbolically, symbolise, symbolises, symbolised, symbolising, symbolism, symbols	symbol
+tape	taped, tapes, taping	tape
+target	targeted, targeting, targets	target
+task	tasks	task
+team	teamed, teaming, teams	team
+technical	technically	technical
+technique	techniques	technique
+technology	technological, technologically	technology
+temporary	temporarily	temporary
+tense	tension, tensely, tenser, tensest, tensions	tense
+terminate	terminal, terminals, terminated, terminates, terminating, termination, terminations	terminate
+text	texts, textual	text
+theme	themes, thematic, thematically	theme
+theory	theoretical, theoretically, theories, theorist, theorists	theory
+thereby	 	thereby
+thesis	theses	thesis
+topic	topical, topics	topic
+trace	traceable, traced, traces, tracing	trace
+tradition	non-traditional, traditional, traditionalist, traditionally, traditions	tradition
+transfer	transferable, transference, transferred, transferring, transfers	transfer
+transform	transformation, transformations, transformed, transforming, transforms	transform
+transit	transited, transiting, transition, transitional, transitions, transitory, transits	transit
+transmit	transmission, transmissions, transmitted, transmitting, transmits	transmit
+transport	transportation, transported, transporter, transporters, transporting, transports	transport
+trend	trends	trend
+trigger	triggered, triggering, triggers	trigger
+ultimate	ultimately	ultimate
+undergo	undergoes, undergoing, undergone, underwent	undergo
+underlie	underlay, underlies, underlying	underlie
+undertake	undertaken, undertakes, undertaking, undertook	undertake
+uniform	uniformity, uniformly	uniform
+unify	unification, unified, unifies, unifying	unify
+unique	uniquely, uniqueness	unique
+utilise	utilisation, utilised, utilises, utilising, utiliser, utilisers, utility, utilities	utilise
+valid	invalidate, invalidity, validate, validated, validating, validation, validity, validly	valid
+vary	invariable, invariably, variability, variable, variables, variably, variance, variant, variants, variation, variations, varied, varies, varying	vary
+vehicle	vehicles	vehicle
+version	versions	version
+via	 	via
+violate	violated, violates, violating, violation, violations	violate
+virtual	virtually	virtual
+visible	visibility, visibly, invisible, invisibility	visible
+vision	visions	vision
+visual	visualise, visualised, visualised, visualising, visualisation, visually	visual
+volume	volumes, vol	volume
+voluntary	voluntarily, volunteer, volunteering, volunteered, volunteers	voluntary
+welfare	 	welfare
+whereas	 	whereas
+whereby	 	whereby
+widespread	 	widespread
