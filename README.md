@@ -44,40 +44,37 @@ The difference of word tree between STEM and ...
 
 | No. | Phrasebank                                                                                                                  | Source                                                                                                               | N-gram Length | Lines  | Comments                                                                |
 | --- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------- | ------ | ----------------------------------------------------------------------- |
-| 1   | 📍 [academic_phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/academic_phrasebank.txt)          | Book - [Academic Phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/data/Academic_Phrasebank.pdf) 2014 | 2-5           | 2,190  | Extract from pdf (Zhihao, 2024)                                         |
-| 2   | 📍 [elsevier_phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank.txt)          | Corpus - [Elsevier OA CC-BY](https://elsevier.digitalcommonsdata.com/datasets/zm33cdndxs/2) 2020                     | 2-6           | 3792   | Extract by n-gram frequency (Zhihao, 2024)                              |
-| 3   | 📍[bawe_1000.csv](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/bawe_ngrams.csv)                         | Corpus - [British Academic Written English](https://app.sketchengine.eu/#dashboard?corpname=preloaded%2Fbawe2) 2019  | 4-6           | 1,000  | Due to inaccessible, only most frequent  1000 list here. (Zhihao, 2024) |
+| 1   | 📍[academic_phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/academic_phrasebank.txt)          | Book - [Academic Phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/data/Academic_Phrasebank.pdf) 2014 | 2-5           | 2,190  | Extract from pdf (Zhihao, 2024)                                         |
+| 2   | 📍[elsevier_phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank.txt)          | Corpus - [Elsevier OA CC-BY](https://elsevier.digitalcommonsdata.com/datasets/zm33cdndxs/2) 2020                     | 2-6           | 3792   | Extract by n-gram frequency (Zhihao, 2024)                              |
+| 3   | 📍[bawe_1000.csv](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/bawe_ngrams.csv)  | Corpus - [British Academic Written English](https://app.sketchengine.eu/#dashboard?corpname=preloaded%2Fbawe2) 2019  | 4-6           | 1,000  | Due to inaccessible, only most frequent  1000 list here. (Zhihao, 2024) |
 | 4   | 📍[google-10000-english.txt](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt)     | Google Books Corpus                                                                                                  | 1             | 10,000 | The 10,000 most common English words from Google Books Corpus           |
 | 5   | 📍academic_word_list                                                                                                        | [Academic Word List Coxhead (2000)](https://www.uefap.com/vocab/select/awl.htm)                                      | 1             | 570    | The 570 word for academic English (exclude frequent 2000 words)         |
 | 6   | 📍[elsevier_awl](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank.txt)                  | 2                                                                                                                    | 2-6           | 994    | The Elsevier phrasebank that contains  AWL (Zhihao, 2024)               |
-| 7   | 📍 [elsevier_ENVI_EART](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_ENVI_EART.txt) | 2                                                                                                                    | 2-7           | 3700   | Environment & Earth Science 3700 collection (Zhihao 2024)               |
+| 7   | 📍[elsevier_ENVI_EART](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_ENVI_EART.txt) | 2                                                                                                                    | 2-7           | 3700   | Environment & Earth Science 3700 collection (Zhihao 2024)               |
 | 8   | 📍[elsevier_PSYC_SOCI](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_PSYC_SOCI.txt)  | 2                                                                                                                    | 2-7           | 3700   | Social Science & Psychology 3700 collection (Zhihao 2024)               |
 
 
   
 <!-- end open-phrase-bank -->
-
 <!-- start custom -->
-
-## How to Get a Self-defined Phrasebank
+## Get a Self-defined Phrasebank in 3 Steps
 
 ![](https://i.imgur.com/qssU2VP.png)
 
+Below is an example based on n-gram frequency. More example available in [documents](https://open-phrasebank.readthedocs.io/en/latest/customisation/index.html).
 
-Below is an example based on n-gram frequency. More example avvailable in [documents](https://open-phrasebank.readthedocs.io/en/latest/customisation/index.html).
-
-### Step 1 - Load and tokenize the data
+### Step 1 - Load and Tokenize the Data
 ``` python
 import openphrasebank as opb
 
 tokens_gen = opb.load_and_tokenize_data (dataset_name="orieg/elsevier-oa-cc-by", 
-                                         subject_areas=['ENVI','EART'],
+                                         subject_areas=['PSYC','SOCI'],
                                          keys=['title', 'abstract','body_text'],
                                          save_cache=True,
                                          cache_file='temp_tokens.json')
 ```
 
-### Step 2 - Gnerate n-grams
+### Step 2 - Generate N-grams
 
 ``` python
 import openphrasebank as opb

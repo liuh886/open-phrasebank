@@ -5,7 +5,6 @@
 :end-before: <!-- end custom -->
 ```
 
-
 ```{toctree}
 :hidden:
 phrasebank_elsevier
