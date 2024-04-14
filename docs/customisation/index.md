@@ -1,6 +1,12 @@
 # Customisation
 
-![](https://i.imgur.com/qssU2VP.png)
+
+
+```{include} ../../README.md
+:start-after: <!-- start custom -->
+:end-before: <!-- end custom -->
+```
+
 
 ```{toctree}
 :hidden:

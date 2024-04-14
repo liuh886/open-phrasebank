@@ -57,22 +57,56 @@ The difference of word tree between STEM and ...
   
 <!-- end open-phrase-bank -->
 
+<!-- start custom -->
+
 ## How to Get a Self-defined Phrasebank
 
 ![](https://i.imgur.com/qssU2VP.png)
 
+
+Below is an example based on n-gram frequency. More example avvailable in [documents](https://open-phrasebank.readthedocs.io/en/latest/customisation/index.html).
+
+### Step 1 - Load and tokenize the data
 ``` python
 import openphrasebank as opb
 
-opb.get_phrasebank ('academic_phrasebank.md')
+tokens_gen = opb.load_and_tokenize_data (dataset_name="orieg/elsevier-oa-cc-by", 
+                                         subject_areas=['ENVI','EART'],
+                                         keys=['title', 'abstract','body_text'],
+                                         save_cache=True,
+                                         cache_file='temp_tokens.json')
 ```
 
+### Step 2 - Gnerate n-grams
 
-The notebook phrasebank_pdf.ipynb gave an example to extract phrasebank from pdf.
+``` python
+import openphrasebank as opb
+n_values = [1,2,3,4,5,6,7,8]
+opb.generate_multiple_ngrams(tokens_gen, n_values)
+```
 
-The notebook phrasebank_pdf.ipynb gave an example to extract phrasebank from pdf.
+### Step 3 - Filter and save
 
-  
+``` python
+# Define the top limits for each n-gram length
+top_limits = {1: 2000, 2: 2000, 3: 1000, 4: 300, 5: 200, 6: 200, 7: 200, 8: 200}
+
+# Filter the frequent n-grams and store the results in a dictionary
+phrases = {}
+freqs = {}
+for n, limit in top_limits.items():
+    phrases[n], freqs[n] = filter_frequent_ngrams(ngram_freqs[n], limit,min_freq=20)
+
+# Combine and sort the phrases from n-gram lengths 2 to 6
+sorted_phrases = sorted(sum((phrases[n] for n in range(2, 7)), []))
+
+# Write the sorted phrases to a Markdown file
+with open('../elsevier_phrasebank_PSYC_SOCI.txt', 'w') as file:
+    for line in sorted_phrases:
+        file.write(line + '\n')
+```
+<!-- end custom -->
+
 ## How to Contribute
 
 You can either contirbute the phrasebank or the code. 
