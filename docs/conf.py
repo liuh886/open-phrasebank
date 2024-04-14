@@ -16,13 +16,12 @@ release = '0.1.0'
 
 extensions = ['nbsphinx']
 nbsphinx_execute = 'never'
-html_logo = "opb_logo.png"
+html_logo = "_static/opb_logo.png"
+pygments_style = 'sphinx'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 source_suffix = ['.rst', '.md', '.ipynb']  # Add '.ipynb'
-
-
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
