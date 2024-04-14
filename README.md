@@ -1,9 +1,12 @@
+
 [![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest)](https://open-phrasebank.readthedocs.io/en/latest/?badge=latest)
 
 # Open Phrasebank
 
 Building your own phrasebank.
-  
+
+## Quickstart
+
 ```bash
 pip install openphrasebank
 ```
@@ -45,9 +48,8 @@ The difference of word tree between STEM and ...
 
 ## How to Get a Self-defined Phrasebank
 
-  
-![](https://i.imgur.com/if1BdNw.png)
-  
+![](https://i.imgur.com/qssU2VP.png)
+
 ``` python
 import openphrasebank as opb
 
