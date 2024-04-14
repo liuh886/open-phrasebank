@@ -17,6 +17,7 @@ release = '0.1.0'
 #
 
 extensions = [
+    'furo',
     # Sphinx's own extensions
     "sphinx.ext.autodoc",
     "sphinx.ext.extlinks",
@@ -37,6 +38,7 @@ extensions = [
 
 nbsphinx_execute = 'never'
 pygments_style = 'sphinx'
+pygments_dark_style = "monokai"
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
