@@ -16,6 +16,7 @@ release = '0.1.0'
 
 extensions = ['nbsphinx']
 nbsphinx_execute = 'never'
+html_logo = "opb_logo.png"
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

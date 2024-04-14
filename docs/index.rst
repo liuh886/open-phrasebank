@@ -9,6 +9,7 @@ Welcome to open phrasebank's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
    introduction
    notebooks/phrasebank_elsevier  # No file extension here
 
