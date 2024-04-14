@@ -1,7 +1,5 @@
 # Customisation
 
-
-
 ```{include} ../../README.md
 :start-after: <!-- start custom -->
 :end-before: <!-- end custom -->
