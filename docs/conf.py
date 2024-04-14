@@ -17,7 +17,6 @@ release = '0.1.0'
 #
 
 extensions = [
-    'furo',
     # Sphinx's own extensions
     "sphinx.ext.autodoc",
     "sphinx.ext.extlinks",
