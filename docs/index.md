@@ -17,5 +17,5 @@ customisation/index
 :caption: Development
 :hidden:
 contributing
-../LICENSE
+LICENSE
 ```
