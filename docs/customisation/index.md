@@ -1,9 +1,6 @@
 # Customisation
 
-```{include} ../README.md
-:start-after: <!-- start How-to-Get-a-Self-defined-Phrasebank -->
-:end-before: <!-- end How-to-Get-a-Self-defined-Phrasebank -->
-```
+![](https://i.imgur.com/qssU2VP.png)
 
 ```{toctree}
 :hidden:

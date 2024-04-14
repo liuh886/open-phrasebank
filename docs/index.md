@@ -4,7 +4,7 @@ Welcome to Open Phrasebank!✨
 
 ```{include} ../README.md
 :start-after: <!-- start Quickstart -->
-:end-before: <!-- end Why Use Phrase Bank -->
+:end-before: <!-- end Why-Use-Phrase-Bank -->
 ```
 
 ```{toctree}
