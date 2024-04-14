@@ -9,7 +9,8 @@ Welcome to open phrasebank's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   notebooks/your_notebook  # No file extension here
+   introduction
+   notebooks/phrasebank_elsevier  # No file extension here
 
 
 Indices and tables
