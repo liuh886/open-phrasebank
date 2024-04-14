@@ -14,7 +14,7 @@ pip install openphrasebank
 ```
 
 - This lib provides open accessible phrasebank, which is a collection of frequent phrases that can be used for e.g. auto-complement function of IDE (This lib does not provide IDE or auto-complete function but ready-for-used phrasebank)
-- This repository also contains features building a phrasebank from a given text or open corpus, so that the users can have personal phrasebank.
+- This repository also contains features building a phrasebank from a given text or open corpora, so that the users can have personal phrasebank.
 
 <!-- end quickstart -->
 

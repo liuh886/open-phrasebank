@@ -5,7 +5,7 @@ setup(
     version="0.1.0",
     author="Zhihao",
     author_email="your.email@example.com",
-    description="A utility to build custom phrasebanks from text or corpus",
+    description="PhraseBank is a utility designed to help users build customized phrasebanks from various texts or corpora.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/liuh886/openphrasebank",

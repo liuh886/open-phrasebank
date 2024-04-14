@@ -9,6 +9,7 @@ Welcome to Open Phrasebank!✨
 
 ```{toctree}
 :hidden:
+quickstart
 phasebank
 customisation/index
 ```
