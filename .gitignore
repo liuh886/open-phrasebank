@@ -3,3 +3,7 @@ notebooks/cifar_net.pth
 .ipynb_checkpoints/
 temp_tokens.json
 notebooks/temp_tokens.json
+notebooks/temp_tokens_p_s.json
+.flake8
+.vscode
+.vscode/settings.json

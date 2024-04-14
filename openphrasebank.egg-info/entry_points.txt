@@ -1,0 +1,2 @@
+[console_scripts]
+openphrasebank = openphrasebank.cli:main
