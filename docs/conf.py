@@ -36,7 +36,6 @@ extensions = [
 ]
 
 nbsphinx_execute = 'never'
-html_logo = "_static/opb_logo.png"
 pygments_style = 'sphinx'
 
 templates_path = ['_templates']
@@ -65,3 +64,7 @@ html_title = "Open Phrasebank"
 language = "en"
 
 html_static_path = ["_static"]
+html_theme_options = {
+    "light_logo": "logo_light.png",
+    "dark_logo": "logo_dark.png",
+}
