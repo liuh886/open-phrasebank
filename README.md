@@ -5,6 +5,8 @@
 
 Building your own phrasebank.
 
+<!-- start quickstart -->
+
 ## Quickstart
 
 ```bash
@@ -14,6 +16,9 @@ pip install openphrasebank
 - This lib provides open accessible phrasebank, which is a collection of frequent phrases that can be used for e.g. auto-complement function of IDE (This lib does not provide IDE or auto-complete function but ready-for-used phrasebank)
 - This repository also contains features building a phrasebank from a given text or open corpus, so that the users can have personal phrasebank.
 
+<!-- end quickstart -->
+
+<!-- start why-use-phrase-bank -->
 ## Why Use Phrase Bank
   
 ### Case 1 - Typing in Flow
@@ -30,7 +35,9 @@ You can further customized the phrasebank according your needs, e.g. for certain
 The difference of word tree between STEM and ...
 
 
+<!-- end why-use-phrase-bank -->
 
+<!-- start open-phrase-bank -->
 ## Open Accessible Phrase Bank
 
 
@@ -44,7 +51,7 @@ The difference of word tree between STEM and ...
 | 6   | 📍elsevier_academic_awl                                                                                                 |                                                                                                                      | 2-6           | 994    | The Elsevier phrasebank that contains  AWL (Zhihao, 2024)               |
 
   
-
+<!-- end open-phrase-bank -->
 
 ## How to Get a Self-defined Phrasebank
 
@@ -66,7 +73,7 @@ The notebook phrasebank_pdf.ipynb gave an example to extract phrasebank from pdf
 
 You can either contirbute the phrasebank or the code. 
 
-
+<!-- start issues -->
 ### Known Issues
 
 ### academic_phrasebank
@@ -74,3 +81,4 @@ Due to the table in pdf file were not properly handled, many sentence are not we
 
 ### elsevier_phrasebank
 
+<!-- end issues -->

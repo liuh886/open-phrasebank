@@ -3,8 +3,8 @@
 Welcome to Open Phrasebank!✨
 
 ```{include} ../README.md
-:start-after: <!-- start Quickstart -->
-:end-before: <!-- end Why-Use-Phrase-Bank -->
+:start-after: <!-- start quickstart -->
+:end-before: <!-- end why-use-phrase-bank -->
 ```
 
 ```{toctree}
