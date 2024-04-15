@@ -1,4 +1,10 @@
-# Customisation
+# Quikstart
+
+
+```{include} ../README.md
+:start-after: <!-- start quickstart -->
+:end-before: <!-- end quickstart -->
+```
 
 ```{include} ../../README.md
 :start-after: <!-- start custom -->

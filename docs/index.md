@@ -18,8 +18,7 @@ Here is how keyword `that` are used when geoscience articles are talking about `
 ```{toctree}
 :hidden:
 phasebank
-quickstart
-customisation/index
+quickstart/index
 reccomendation/index
 ```
 
