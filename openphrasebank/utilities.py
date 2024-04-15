@@ -1,10 +1,8 @@
 import re
 from IPython.display import HTML
-from spacy.language import Language
 import spacy
 from typing import List
 import json
-from nltk.util import ngrams
 from collections import defaultdict, Counter
 import nltk
 from nltk.util import ngrams
