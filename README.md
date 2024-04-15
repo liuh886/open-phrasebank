@@ -9,7 +9,7 @@ Academic phrasebank is an excellent
 
 Building your own phrasebank.
 
-This repository provides an accessible ==phrase bank==, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers a ready-to-use phrase bank)
+This repository provides an accessible **phrase bank**, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers a ready-to-use phrase bank)
 
 Moreover, this repository includes features for constructing a phrase bank from a provided text or an open corpus.
 
