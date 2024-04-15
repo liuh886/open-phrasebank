@@ -5,7 +5,7 @@
 
 Building your own phrasebank. ✨
 
-![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank)![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/liuh886/open_phrasebank/lint.yml)![GitHub License](https://img.shields.io/github/license/liuh886/open_phrasebank)
+![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest)![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank)![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/liuh886/open_phrasebank/lint.yml)![GitHub License](https://img.shields.io/github/license/liuh886/open_phrasebank)
 
 
 This repository provides an accessible **phrase bank**, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers ready-to-use phrasebanks)
@@ -33,16 +33,16 @@ You can further customize the phrasebank according to your needs, e.g. for certa
 
 Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from Arts, Business, STEM to Social Sciences[^1]. 
 
-| No. | Phrasebank                                                                                                                                                                                                                                                       | Source                                                                                                                                                                                   | N-gram Length                                                           | Lines                                                           | Comments                                                                               |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| 1   | 📍 [academic_phrasebank](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/academic_phrasebank.txt)                                                                                         | Book - [Academic Phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/data/Academic_Phrasebank.pdf) 2014                                                                     | 2-5                                                                     | 2,190                                                           | Extract from pdf (Zhihao, 2024)                                                        |
-|     | 📍 [elsevier_phrasebank](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank.txt)                                                                                                                                     | Corpus - [Elsevier OA CC-BY](https://elsevier.digitalcommonsdata.com/datasets/zm33cdndxs/2) 2020                                                                                         | 2-6                                                                     | 3,792                                                           | Extract by n-gra                                                                 2024) |
-| 3   | 📍 [bawe_1000.csv](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/bawe_ngrams.csv)                                                                                                                                                   | Corpus - [British Academi                                                                                                                                                          1,000 | Due to inaccessible, only most frequent  1000 list here. (Zhihao, 2024) |                                                                 |                                                                                        |
-| 4   | 📍 academic_word_list                                                                                                                      📍 [elsevier_awl](https://raw.githubusercontent.com/liuh886/open_phrasebank//main/phrasebanks/elsevier_phrasebank.txt) | 1                                                                                                                                                                                        | 570                                                                     | The 570 word for academic English (exclude frequent 2000 words) |                                                                                        |
-| 5   | 📍[elsevier_awl](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank.txt)                   \| 2                                                                                                                                | 2-6                                                           4                                                                                                                          | The Elsevier phrasebank that contains  AWL (Zhihao, 2024)               |                                                                 |                                                                                        |
-| 6   | 📍[elsevier_ENVI_EART](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank_ENVI_EART.txt)                                                                                                                                       | 2                                                                                                                                                                                        | 2-7                                                                     | 3,700                                                           | Environment & Earth Science 3700 collection (Zhihao 2024)                              |
-| 7   | 📍[elsevier_PSYC_SOCI](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank_PSYC_SOCI.txt)                                                                                                                                       | 2                                                                                                                                                                                        | 2-7                                                                     | 3,700                                                           | Social Science & Psychology 3700 collection (Zhihao 2024)                              |
-| 8   | 📍[elsevier_MEDI](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank_MEDI.txt)                                                                                                                                                | 2                                                                                                                                                                                        | 2-7                                                                     | 3,700                                                           | Medicine 3700 collection (Zhihao 2024)                                                 |
+| No. | Phrasebank                                                                                                                           | Source                                                                                                                                                                  | N-gram Length | Lines | Comments                                                                               |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- | -------------------------------------------------------------------------------------- |
+| 1   | 📍[academic_phrasebank](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/academic_phrasebank.txt)          | Book [Academic Phrasebank](https://github.com/liuh886/open_phrasebank/blob/main/data/Academic_Phrasebank.pdf) 2014                                                      | 2-5           | 2,190 | Extract from pdf (Zhihao, 2024)                                                        |
+| 2   | 📍[elsevier_phrasebank](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank.txt)          | Corpus [Elsevier OA CC-BY](https://elsevier.digitalcommonsdata.com/datasets/zm33cdndxs/2) 2020                                                                          | 2-6           | 3,792 | Extract by n-gra                                                                 2024) |
+| 3   | 📍[bawe_1000.csv](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/bawe_ngrams.csv)                        | Corpus [British Academic Written English](https://www.coventry.ac.uk/research/research-directories/current-projects/2015/british-academic-written-english-corpus-bawe/) | 4-6           | 1,000 | Due to inaccessible, only most frequent  1000 list here. (Zhihao, 2024)                |
+| 4   | 📍academic_word_list                                                                                                                 | [Academic Word List Coxhead (2000)](https://www.uefap.com/vocab/select/awl.htm)                                                                                         | 1             | 570   | The 570 word for academic English (exclude frequent 2000 words)                        |
+| 5   | 📍[elsevier_awl](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank.txt)                 | 2,4                                                                                                                                                                     | 2-6           | 994   | The Elsevier phrasebank that contains  AWL (Zhihao, 2024)                              |
+| 6   | 📍[elsevier_ENVI_EART](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank_ENVI_EART.txt) | 2                                                                                                                                                                       | 2-7           | 3,700 | Environment & Earth Science 3700 collection (Zhihao 2024)                              |
+| 7   | 📍[elsevier_PSYC_SOCI](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank_PSYC_SOCI.txt) | 2                                                                                                                                                                       | 2-7           | 3,700 | Social Science & Psychology 3700 collection (Zhihao 2024)                              |
+| 8   | 📍[elsevier_MEDI](https://raw.githubusercontent.com/liuh886/open_phrasebank/main/phrasebanks/elsevier_phrasebank_MEDI.txt)           | 2                                                                                                                                                                       | 2-7           | 3,700 | Medicine 3700 collection (Zhihao 2024)                                                 |
 
 
 
@@ -78,7 +78,7 @@ pip install openphrasebank
 
 Below is an example based on n-gram frequency. [More examples, e.g. extract from PDF, are available in documents](https://open-phrasebank.readthedocs.io/en/latest/quickstart/index.html).
 
-### Step 1 - Load and Tokenize the Data
+### 1️⃣ Load and Tokenize the Data
 ``` python
 import openphrasebank as opb
 
@@ -89,14 +89,14 @@ tokens_gen = opb.load_and_tokenize_data (dataset_name="orieg/elsevier-oa-cc-by",
                                          cache_file='temp_tokens.json')
 ```
 
-### Step 2 - Generate N-grams
+### 2️⃣ Generate N-grams
 
 ``` python
 n_values = [1,2,3,4,5,6,7,8]
 opb.generate_multiple_ngrams(tokens_gen, n_values)
 ```
 
-### Step 3 - Filter and save
+### 3️⃣ Filter and save
 
 ``` python
 # Define the top limits for each n-gram length
@@ -126,8 +126,7 @@ You can either contribute the phrasebank or the code. Check out our [contributin
 <!-- start issues -->
 ### Known Issues
 
-
-| Phrasebank          |                                                                                                                    |
+| Phrasebank          | Issues                                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | academic_phrasebank | Due to the table in the PDF file not being properly handled, many sentences were not extracted correctly. (zhihao) |
 | elsevier_phrasebank |                                                                                                                    |
