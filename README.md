@@ -94,7 +94,6 @@ tokens_gen = opb.load_and_tokenize_data (dataset_name="orieg/elsevier-oa-cc-by",
 ### Step 2 - Generate N-grams
 
 ``` python
-import openphrasebank as opb
 n_values = [1,2,3,4,5,6,7,8]
 opb.generate_multiple_ngrams(tokens_gen, n_values)
 ```
@@ -109,7 +108,7 @@ top_limits = {1: 2000, 2: 2000, 3: 1000, 4: 300, 5: 200, 6: 200, 7: 200, 8: 200}
 phrases = {}
 freqs = {}
 for n, limit in top_limits.items():
-    phrases[n], freqs[n] = filter_frequent_ngrams(ngram_freqs[n], limit,min_freq=20)
+    phrases[n], freqs[n] = opb.filter_frequent_ngrams(ngram_freqs[n], limit,min_freq=20)
 
 # Combine and sort the phrases from n-gram lengths 2 to 6
 sorted_phrases = sorted(sum((phrases[n] for n in range(2, 7)), []))
