@@ -179,10 +179,6 @@ def is_valid_phrase(phrase):
     return True
 
 
-# Consider loading this dynamically or ensuring it's initialized properly in your application
-nlp = spacy.load("en_core_web_sm")
-
-
 def extract_verb_phrases(doc):
     """Extract verb phrases from a SpaCy document."""
     verb_phrases = [' '.join([tok.lower_ for tok in token.subtree]).replace(
