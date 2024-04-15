@@ -8,10 +8,10 @@ Welcome to Open Phrasebank!✨
 ```
 
 
-Here is how keyword `that` are used in geoscience articles from Elsevier OA CC-BY:
+Here is how keyword `that` are used when geoscience articles are talking about `climate` (data srouce: Elsevier OA CC-BY):
 
 <iframe src="wordtree_that_geo.html" width="100%" height="500px">
-  <p>The wordtree of that in geoscience ngrams from Elsevier OA CC-BY</p>
+  <p>Your browser does not support iframes.</p>
 </iframe>
 
 Interesting? Let's get check out available [phrasebanks](https://open-phrasebank.readthedocs.io/en/latest/phasebank.html).
