@@ -6,7 +6,7 @@
 ```
 
 
-Here is how keyword `that` are used when geoscience articles are talking about `climate`:
+Here is how the keyword `that` is used when geoscience articles are talking about `climate`:
 
 <iframe src="wordtree_that_geo.html" frameborder="0" style="border:none; overflow:hidden; width:100%; height:501px;" allowTransparency="true"></iframe>
 </iframe>
@@ -15,9 +15,9 @@ Here is how keyword `that` are used when geoscience articles are talking about `
 
 ```{toctree}
 :hidden:
-phasebank
+phrasebank
 quickstart/index
-reccomendation/index
+recommendation/index
 ```
 
 ```{toctree}
