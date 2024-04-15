@@ -1,6 +1,6 @@
 # Wordtree
 
-he wordtree visualization is useful for identifying the most common words in a text and understanding the overall structure of the text.
+The wordtree visualization is useful for identifying the most common words in a text and understanding the overall structure of the text. This tool also works for our phrasebank.
 
 The keyword `climate` in geoscience articles from Elsevier OA CC-BY:
 
