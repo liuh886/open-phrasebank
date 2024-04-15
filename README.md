@@ -15,19 +15,14 @@ Moreover, this repository includes features for constructing a phrase bank from 
 
 ## Why Use Phrase Bank
   
-### Case 1 - Typing in Flow
+### Boosting typing experience with phrasebank.🚀
 
 ![](https://i.imgur.com/MGDIqly.gif)
 
-Boosting typing experience with phrasebank.🚀
 
-
-### Case 2 - Academic Writing
-
-  
+### Academic Writing 🕵️‍♀
 
 You can further customize the phrasebank according to your needs, e.g. for certain disciplines, for certain styles (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text), as long as you can find good ingredients.
-
 
 <!-- end why-use-phrase-bank -->
 
