@@ -7,7 +7,10 @@ Welcome to Open Phrasebank!✨
 :end-before: <!-- end why-use-phrase-bank -->
 ```
 
-<iframe src="wordtree_climate_geo.html" width="100%" height="500px">
+
+Here is how keyword 'climate' are mentioned in geoscience articles from Elsevier OA CC-BY:
+
+<iframe src="wordtree_climate_geo.html" width="80%" height="500px">
   <p>The wordtree of climate in geoscience ngrams from Elsevier OA CC-BY</p>
 </iframe>
 
