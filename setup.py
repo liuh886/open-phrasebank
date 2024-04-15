@@ -11,11 +11,13 @@ setup(
     url="https://github.com/liuh886/open_phrasebank",
     install_requires=[
         'nltk', 
-        'spacy',
         'pymupdf',
         'tqdm',  
         'datasets', # Huggingface datasets
     ],
+    extras_require={
+        'spacy': ['spacy>=3.0', 'en_core_web_sm']
+        },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
