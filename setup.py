@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages 
 
 setup(
     name="openphrasebank",
@@ -11,7 +11,7 @@ setup(
     url="https://github.com/liuh886/open_phrasebank",
     packages=find_packages(),
     install_requires=[
-        'nltk',  # Example dependency, replace with actual dependencies
+        'nltk', 
         'spacy',
         'pymupdf',
         'tqdm',  
@@ -35,4 +35,3 @@ setup(
         "": ["data/*", "phrasebanks/*"],  # include all files in the data and phrasebanks directories
     },
 )
-

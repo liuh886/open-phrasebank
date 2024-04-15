@@ -1,12 +1,17 @@
+import re
+from IPython.display import HTML
+from spacy.language import Language
+import spacy
+from typing import List
 import json
 from nltk.util import ngrams
 from collections import defaultdict, Counter
 import nltk
 from nltk.util import ngrams
 nltk.download('punkt')
-from typing import List
 
-def smart_join(tokens:list or tuple):
+
+def smart_join(tokens: list or tuple):
     """Recovery tokens into a phrase with proper spacing.
 
     Args:
@@ -24,7 +29,8 @@ def smart_join(tokens:list or tuple):
 
     # Iterate over the remaining tokens
     for token in tokens[1:]:
-        if token in ["'s", "'t", "'re", "'ve", "'d", "'ll", "'m"]:  # Handling contractions and possessive
+        # Handling contractions and possessive
+        if token in ["'s", "'t", "'re", "'ve", "'d", "'ll", "'m"]:
             phrase += token
         elif phrase[-1].isalnum() and token[0].isalnum():
             # Add a space before joining if both parts are alphanumeric
@@ -38,7 +44,8 @@ def smart_join(tokens:list or tuple):
 
     return phrase
 
-def generate_multiple_ngrams(tokens_generator, 
+
+def generate_multiple_ngrams(tokens_generator,
                              n_values: List[int] = [2, 3],
                              prune_threshold: int = 3):
     """Generate and prune n-grams based on frequency thresholds.
@@ -58,13 +65,14 @@ def generate_multiple_ngrams(tokens_generator,
         for n in n_values:
             if len(tokens) >= n:
                 ngram_freqs[n].update(ngrams(tokens, n))
-    
+
         # Optionally prune less frequent n-grams to save memory
         if i % 9000 == 0:  # Prune every 9000 lines, adjust based on needs
             prune_ngram_freqs(ngram_freqs, prune_threshold)
 
         i += 1
     return ngram_freqs
+
 
 def prune_ngram_freqs(ngram_freqs, prune_threshold):
     """
@@ -82,32 +90,33 @@ def prune_ngram_freqs(ngram_freqs, prune_threshold):
             if ngram_freqs[n][ngram] < prune_threshold:
                 del ngram_freqs[n][ngram]
 
+
 def filter_frequent_ngrams(ngram_counts,
                            most_freq=1000,
-                           min_freq=20, 
-                           exclude_list=None, 
+                           min_freq=20,
+                           exclude_list=None,
                            include_list=None):
 
     if exclude_list is None:
-        exclude_list = ['Table','table','Fig','Figs','fig','figs','Figure','figure', 'Appendix', 'Declaration','Acknowledgement',
-                      'Kim','Liu','Wang','Zhang','Li','Wu',
-                      'Chen','Yang','Zhao','Zhu','Xu','Sun','Ma','Hu','Guo','He','Gao','Luo','Lin','Huang','Zhou',
-                      'Elisabeth','Michael','Thomas','Andreas','Stefan','Christoph','Martin','Frank','Peter',
-                      '0','1','2','3','4','5','6','7','8','9','10','20','30','40','50','60','70','80','90','100','&D', '&', 'R',
-                      '11','12','13','14','15','16','17','18','19','21','22','23','24','25','26','27','28','29','31','32','33',
-                      'and','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013',
-                      '2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026','2027','2028',
-                      'USA','CA','UK','NY','LA','DC','FL','TX','IL','PA','OH','GA','MI','NC','NJ','VA','WA','MA','AZ','CO','MD','IN',
-                      'TN','MO','MN','WI','OR','SC','AL','KY','OK','CT','NV','KS','AR','IA','UT','NM','NE','ID','HI','ME','NH','RI','MT','DE',
-                      'SD','ND','AK','VT','WY','WV','MS','PR','VI','GU','AS','MP','PW','MH', 'WHO', '(WHO','.',',',';','?','!','(',')','[',']',
-                      '%','MHz',',B','B','V','Hz','mV','μV','nV','pV','kV','MV','GV','mHz','μHz','nHz','pHz','kHz','GHz',
-                      'THz','mΩ','μΩ','nΩ','pΩ','kΩ','MΩ','GΩ','TΩ','mF','μF','nF','pF','kF','mH','μH','nH','pH','kH','mW','μW','nW',
-                      'pW','kW','MW','GW','TW','mJ','μJ','nJ','pJ','kJ','MJ','GJ','TJ','mN','μN','nN','pN','kN','MN','GN','TN','mPa',
-                      'μPa','nPa','pPa','kPa','MPa','GPa','TPa','mbar','μbar','nbar','pbar','kbar','Mbar','Gbar','Tbar','mL','μL','nL',
-                      'pL','kL','m3','μ3','n3','p3','k3','m2','μ2','n2','p2','k2','m/s','μ/s','n/s','p/s','km/s','m/s2',
-                      '°C','m','nm','mm','cm','km','kg','g','s','h','min','sec','day','week','month','year','C','F','K','μL','ml']
+        exclude_list = ['Table', 'table', 'Fig', 'Figs', 'fig', 'figs', 'Figure', 'figure', 'Appendix', 'Declaration', 'Acknowledgement',
+                        'Kim', 'Liu', 'Wang', 'Zhang', 'Li', 'Wu',
+                        'Chen', 'Yang', 'Zhao', 'Zhu', 'Xu', 'Sun', 'Ma', 'Hu', 'Guo', 'He', 'Gao', 'Luo', 'Lin', 'Huang', 'Zhou',
+                        'Elisabeth', 'Michael', 'Thomas', 'Andreas', 'Stefan', 'Christoph', 'Martin', 'Frank', 'Peter',
+                        '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100', '&D', '&', 'R',
+                        '11', '12', '13', '14', '15', '16', '17', '18', '19', '21', '22', '23', '24', '25', '26', '27', '28', '29', '31', '32', '33',
+                        'and', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013',
+                        '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026', '2027', '2028',
+                        'USA', 'CA', 'UK', 'NY', 'LA', 'DC', 'FL', 'TX', 'IL', 'PA', 'OH', 'GA', 'MI', 'NC', 'NJ', 'VA', 'WA', 'MA', 'AZ', 'CO', 'MD', 'IN',
+                        'TN', 'MO', 'MN', 'WI', 'OR', 'SC', 'AL', 'KY', 'OK', 'CT', 'NV', 'KS', 'AR', 'IA', 'UT', 'NM', 'NE', 'ID', 'HI', 'ME', 'NH', 'RI', 'MT', 'DE',
+                        'SD', 'ND', 'AK', 'VT', 'WY', 'WV', 'MS', 'PR', 'VI', 'GU', 'AS', 'MP', 'PW', 'MH', 'WHO', '(WHO', '.', ',', ';', '?', '!', '(', ')', '[', ']',
+                        '%', 'MHz', ',B', 'B', 'V', 'Hz', 'mV', 'μV', 'nV', 'pV', 'kV', 'MV', 'GV', 'mHz', 'μHz', 'nHz', 'pHz', 'kHz', 'GHz',
+                        'THz', 'mΩ', 'μΩ', 'nΩ', 'pΩ', 'kΩ', 'MΩ', 'GΩ', 'TΩ', 'mF', 'μF', 'nF', 'pF', 'kF', 'mH', 'μH', 'nH', 'pH', 'kH', 'mW', 'μW', 'nW',
+                        'pW', 'kW', 'MW', 'GW', 'TW', 'mJ', 'μJ', 'nJ', 'pJ', 'kJ', 'MJ', 'GJ', 'TJ', 'mN', 'μN', 'nN', 'pN', 'kN', 'MN', 'GN', 'TN', 'mPa',
+                        'μPa', 'nPa', 'pPa', 'kPa', 'MPa', 'GPa', 'TPa', 'mbar', 'μbar', 'nbar', 'pbar', 'kbar', 'Mbar', 'Gbar', 'Tbar', 'mL', 'μL', 'nL',
+                        'pL', 'kL', 'm3', 'μ3', 'n3', 'p3', 'k3', 'm2', 'μ2', 'n2', 'p2', 'k2', 'm/s', 'μ/s', 'n/s', 'p/s', 'km/s', 'm/s2',
+                        '°C', 'm', 'nm', 'mm', 'cm', 'km', 'kg', 'g', 's', 'h', 'min', 'sec', 'day', 'week', 'month', 'year', 'C', 'F', 'K', 'μL', 'ml']
         exclude_list = set(exclude_list)
-        
+
     # Filter ngrams which occur at least min_frequency times
     frequent_ngrams = []
     frequent_count = []
@@ -117,28 +126,31 @@ def filter_frequent_ngrams(ngram_counts,
         ngram_set = set(ngram)
 
         if (count >= min_freq and ngram[0].isalnum() and
-            ngram[-1] not in ['a','the'] and
-            ngram[-1].isalnum() and not ngram_set.intersection(exclude_list) and 
-            (not include_list or ngram_set & set(include_list))):
+            ngram[-1] not in ['a', 'the'] and
+            ngram[-1].isalnum() and not ngram_set.intersection(exclude_list) and
+                (not include_list or ngram_set & set(include_list))):
             frequent_ngrams.append(smart_join(ngram))
             frequent_count.append(count)
     return frequent_ngrams[:most_freq], frequent_count
 
-import re
+
 # Define a function to apply multiple filters
+
+
 def is_valid_phrase(phrase):
     # Check for digits
     if any(char.isdigit() for char in phrase):
         return False
     # Check for specific special characters
-    if any(char in phrase for char in ['(', ')', '-', '*', '/', '?', '=', '!', '@', '→',':', 'et al',
+    if any(char in phrase for char in ['(', ')', '-', '*', '/', '?', '=', '!', '@', '→', ':', 'et al',
                                        '#', '$', '%', '^', '&', '<', '>', '[', ']', '  ', '\'',
-                                       '{', '}', '|', '\\', '~', '`', '+', '_','•', ',', '/',
-                                       '‘','’', '“', '”', '.', '—', '…', '°', '€', '£', '¥']):
+                                       '{', '}', '|', '\\', '~', '`', '+', '_', '•', ',', '/',
+                                       '‘', '’', '“', '”', '.', '—', '…', '°', '€', '£', '¥']):
         return False
 
     # remove normal phrases
-    words_to_match = ['women', 'man', 'to do', 'grammar','icv','noun','dog','cat','v','c','p','d','P','re']
+    words_to_match = ['women', 'man', 'to do', 'grammar', 'icv',
+                      'noun', 'dog', 'cat', 'v', 'c', 'p', 'd', 'P', 're']
     if any(re.search(r'\b' + re.escape(word) + r'\b', phrase) for word in words_to_match):
         return False
 
@@ -148,15 +160,16 @@ def is_valid_phrase(phrase):
     return True
 
 
-import spacy
-from spacy.language import Language
+# Consider loading this dynamically or ensuring it's initialized properly in your application
+nlp = spacy.load("en_core_web_sm")
 
-nlp = spacy.load("en_core_web_sm")  # Consider loading this dynamically or ensuring it's initialized properly in your application
 
 def extract_verb_phrases(doc):
     """Extract verb phrases from a SpaCy document."""
-    verb_phrases = [ ' '.join([tok.lower_ for tok in token.subtree]).replace(' ,', ',') for token in doc if token.pos_ == 'VERB']
+    verb_phrases = [' '.join([tok.lower_ for tok in token.subtree]).replace(
+        ' ,', ',') for token in doc if token.pos_ == 'VERB']
     return verb_phrases
+
 
 def extract_expanded_noun_phrases(doc):
     """Extract expanded noun phrases from a SpaCy document."""
@@ -172,9 +185,6 @@ def extract_expanded_noun_phrases(doc):
         expanded_noun_phrases.append(doc[start:end].text)
     return expanded_noun_phrases
 
-
-from IPython.display import HTML
-import json
 
 def display_word_tree(phrases, keyword):
     json_phrases = json.dumps([["Phrases"]] + [[phrase] for phrase in phrases])

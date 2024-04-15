@@ -1,7 +1,10 @@
+import re
+import fitz  # PyMuPDF
 import json
 from nltk.tokenize import word_tokenize
 from datasets import load_dataset
 from tqdm import tqdm
+
 
 def flatten(nested_list):
     """Flatten nested list structure.
@@ -18,6 +21,7 @@ def flatten(nested_list):
             yield from flatten(item)
         else:
             yield item
+
 
 def tokens_generator(file_path, chunk_size=500):
     """ 
@@ -46,10 +50,11 @@ def tokens_generator(file_path, chunk_size=500):
         if tokens:
             yield tokens
 
-def load_and_tokenize_data(dataset_name, 
-                           subject_areas: list =None,
-                           keys: list =['title','abstract', 'body_text'],
-                           save_cache: bool =False, 
+
+def load_and_tokenize_data(dataset_name,
+                           subject_areas: list = None,
+                           keys: list = ['title', 'abstract', 'body_text'],
+                           save_cache: bool = False,
                            cache_file='temp_tokens.json'):
     '''
     Load a dataset, filter by subject area if specified, and tokenize the sentences in the specified keys.
@@ -70,13 +75,14 @@ def load_and_tokenize_data(dataset_name,
     Returns:
     A generator that yields tokens from the dataset.
     '''
-    # Load the dataset from hugging face 
+    # Load the dataset from hugging face
     # Note: hugging face automatically split the dataset into 'train', 'test' and 'validation'
     dataset = load_dataset(dataset_name, trust_remote_code=True)
-    
+
     # Filter the dataset by subject area if specified
     if subject_areas:
-        dataset = dataset.filter(lambda x: any(sa in x['subjareas'] for sa in subject_areas))
+        dataset = dataset.filter(lambda x: any(
+            sa in x['subjareas'] for sa in subject_areas))
 
     if save_cache:
         # Open a temporary file in write mode to store tokens
@@ -87,7 +93,8 @@ def load_and_tokenize_data(dataset_name,
                     tokens = word_tokenize(sentences)
                     json.dump(tokens, f)
                     f.write('\n')  # Write each list of tokens on a new line
-        return tokens_generator(cache_file)  # Return the path to the cached file
+        # Return the path to the cached file
+        return tokens_generator(cache_file)
     else:
         # Process all tokens in memory (for small datasets)
         tokens = []
@@ -96,8 +103,6 @@ def load_and_tokenize_data(dataset_name,
                 tokens.extend(word_tokenize(sentences))
         return tokens
 
-
-import fitz  # PyMuPDF
 
 def extract_text_from_pdf(pdf_path, skip_first=1, skip_last=2):
     """
@@ -123,7 +128,6 @@ def extract_text_from_pdf(pdf_path, skip_first=1, skip_last=2):
     doc.close()
     return text
 
-import re
 
 def clean_text(text):
     """Clean and preprocess extracted text."""
