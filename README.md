@@ -5,7 +5,7 @@
 <!-- start why-use-phrase-bank -->
 
 
-![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/liuh886/open_phrasebank/workflows%2Flint.yml) ![GitHub License](https://img.shields.io/github/license/liuh886/open_phrasebank)
+![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank) ![GitHub License](https://img.shields.io/github/license/liuh886/open_phrasebank) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/liuh886/open_phrasebank/lint.yml)
 
 
 Building your own phrasebank.
