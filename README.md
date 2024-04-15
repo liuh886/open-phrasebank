@@ -28,7 +28,7 @@ You can further customized the phrasebank according to your needs, e.g. for cert
 <!-- end why-use-phrase-bank -->
 
 <!-- start open-phrase-bank -->
-## Open Accessible Phrase Bank
+## Open Phrasebanks
 
 
 ### Academic Phrasebank
