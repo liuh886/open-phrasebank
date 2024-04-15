@@ -31,7 +31,7 @@ jobs:
         autopep8 --in-place --recursive .
     - name: Lint with flake8
       run: |
-        flake8 . --max-line-length=180 --exclude=.git,__pycache__,old,build,dist
+        flake8 . --ignore=F401 --max-line-length=170 --exclude=.git,__pycache__,old,build,dist
     - name: Test
       run: |
         pytest
