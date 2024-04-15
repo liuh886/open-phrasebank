@@ -4,11 +4,10 @@
 
 <!-- start why-use-phrase-bank -->
 
+Building your own phrasebank. ✨
 
 ![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank) ![GitHub License](https://img.shields.io/github/license/liuh886/open_phrasebank) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/liuh886/open_phrasebank/lint.yml)
 
-
-Building your own phrasebank.
 
 This repository provides an accessible **phrase bank**, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers a ready-to-use phrase bank)
 
