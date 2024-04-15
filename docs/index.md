@@ -10,7 +10,7 @@ Welcome to Open Phrasebank!✨
 
 Here is how keyword `that` are used when geoscience articles are talking about `climate` (data srouce: Elsevier OA CC-BY):
 
-<iframe src="wordtree_that_geo.html" width="100%" height="510px">
+<iframe src="wordtree_that_geo.html" frameborder="0" style="border:none; overflow:hidden; width:100%; height:501px;" allowTransparency="true"></iframe>
   <p>Your browser does not support iframes.</p>
 </iframe>
 
