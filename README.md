@@ -76,7 +76,7 @@ pip install openphrasebank
 
 ![](https://i.imgur.com/qssU2VP.png)
 
-Below is an example based on n-gram frequency. More example available in [documents](https://open-phrasebank.readthedocs.io/en/latest/customisation/index.html).
+Below is an example based on n-gram frequency. More example available in [documents](https://open-phrasebank.readthedocs.io/en/latest/quickstart/index.html).
 
 ### Step 1 - Load and Tokenize the Data
 ``` python
