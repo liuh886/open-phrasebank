@@ -3,5 +3,5 @@ spacy
 pymupdf
 datasets
 nltk
-pylint
 pytest
+autopep8
