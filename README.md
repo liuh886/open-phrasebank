@@ -27,10 +27,9 @@ You can further customized the phrasebank according to your needs, e.g. for cert
 
 <!-- end why-use-phrase-bank -->
 
-<!-- start open-phrase-bank -->
 ## Open Phrasebanks
 
-
+<!-- start open-phrase-bank -->
 ### Academic Phrasebank
 
 Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from Arts, Business, STEM to Social Sciences[^1]. 
