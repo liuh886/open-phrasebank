@@ -38,7 +38,7 @@ extensions = [
 nbsphinx_execute = 'never'
 pygments_style = 'sphinx'
 pygments_dark_style = "monokai"
-html_extra_path = ['wordtree_climate_geo.html','wordtree_climate_social_science.html','wordtree_life_medicine.html']
+html_extra_path = ['wordtree_climate_geo.html','wordtree_climate_social_science.html','wordtree_life_medicine.html','wordtree_that_geo.html']
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

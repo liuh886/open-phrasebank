@@ -8,13 +8,13 @@ Welcome to Open Phrasebank!✨
 ```
 
 
-Here is how keyword 'climate' are mentioned in geoscience articles from Elsevier OA CC-BY:
+Here is how keyword `that` are used in geoscience articles from Elsevier OA CC-BY:
 
-<iframe src="wordtree_climate_geo.html" width="100%" height="500px">
-  <p>The wordtree of climate in geoscience ngrams from Elsevier OA CC-BY</p>
+<iframe src="wordtree_that_geo.html" width="100%" height="500px">
+  <p>The wordtree of that in geoscience ngrams from Elsevier OA CC-BY</p>
 </iframe>
 
-Interesting? Let's get check out available [phrasebands](https://open-phrasebank.readthedocs.io/en/latest/phasebank.html).
+Interesting? Let's get check out available [phrasebanks](https://open-phrasebank.readthedocs.io/en/latest/phasebank.html).
 
 ```{toctree}
 :hidden:
