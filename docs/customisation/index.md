@@ -6,6 +6,7 @@
 ```
 
 ```{toctree}
+:hidden:
 phrasebank_elsevier
 phrasebank_pdf
 ```
