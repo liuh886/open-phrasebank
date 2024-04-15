@@ -60,18 +60,16 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 
 <!-- end open-phrase-bank -->
 
-<!-- start quickstart -->
 
 ## Quickstart
 
+<!-- start quickstart -->
 
 ```bash
 
 pip install openphrasebank
 
 ```
-
-  
 
 <!-- end quickstart -->
 
