@@ -123,17 +123,36 @@ def filter_frequent_ngrams(ngram_counts,
         # not to include the common name/unit/number
         ngram_set = set(ngram)
 
-    if (count >= min_freq 
-        and ngram[0].isalnum() 
+    if (count >= min_freq
+        and ngram[0].isalnum()
         and ngram[-1] not in ['a', 'the']
-        and ngram[-1].isalnum() 
+        and ngram[-1].isalnum()
         and not ngram_set.intersection(exclude_list)
-        and (not include_list or ngram_set & set(include_list))):
+            and is_in_includelist(ngram, include_list=include_list)):
         frequent_ngrams.append(smart_join(ngram))
         frequent_count.append(count)
 
     return frequent_ngrams[:most_freq], frequent_count
 
+
+def is_in_includelist(ngram, include_list):
+    """
+    Check if any element in the include_list is present in the given ngram.
+
+    Parameters:
+    ngram (str): The ngram to check.
+    include_list (list): The list of elements to search for in the ngram.
+
+    Returns:
+    bool: True if any element in the include_list is found in the ngram, False otherwise.
+    """
+    if include_list is None:
+        return True
+    else:
+        for i in include_list:
+            if i in ngram:
+                return True
+        return False
 
 # Define a function to apply multiple filters
 
