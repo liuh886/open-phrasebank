@@ -123,12 +123,15 @@ def filter_frequent_ngrams(ngram_counts,
         # not to include the common name/unit/number
         ngram_set = set(ngram)
 
-        if (count >= min_freq and ngram[0].isalnum() 
-            and ngram[-1] not in ['a', 'the']
-            and ngram[-1].isalnum() and not ngram_set.intersection(exclude_list)
-            and (not include_list or ngram_set & set(include_list))):
-            frequent_ngrams.append(smart_join(ngram))
-            frequent_count.append(count)
+    if (count >= min_freq 
+        and ngram[0].isalnum() 
+        and ngram[-1] not in ['a', 'the']
+        and ngram[-1].isalnum() 
+        and not ngram_set.intersection(exclude_list)
+        and (not include_list or ngram_set & set(include_list))):
+        frequent_ngrams.append(smart_join(ngram))
+        frequent_count.append(count)
+
     return frequent_ngrams[:most_freq], frequent_count
 
 
@@ -207,6 +210,6 @@ def display_word_tree(phrases, keyword):
         chart.draw(data, options);
     }}
     </script>
-    <div id="wordtree_basic" style="width: 900px; height: 500px;"></div>
+    <div id="wordtree_basic" style="width: 100%; height: 500px;"></div>
     """
     return HTML(js_code)
