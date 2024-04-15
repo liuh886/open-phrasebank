@@ -1,6 +1,4 @@
 
-Academic phrasebank is an excellent 
-
 # Open Phrasebank
 
 <!-- start why-use-phrase-bank -->
