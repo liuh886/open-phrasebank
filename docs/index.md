@@ -7,7 +7,7 @@ Welcome to Open Phrasebank!✨
 :end-before: <!-- end why-use-phrase-bank -->
 ```
 
-<iframe src="/_static/wordtree_climate_geo.html" width="100%" height="500px">
+<iframe srcdoc="_static/wordtree_climate_geo.html" width="100%" height="500px">
   <p>The wordtree of climate in geoscience ngrams from Elsevier OA CC-BY</p>
 </iframe>
 
