@@ -5,20 +5,6 @@
 
 Building your own phrasebank.
 
-<!-- start quickstart -->
-
-## Quickstart
-
-This repository provides an openly accessible phrase bank, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers a ready-to-use phrase bank)
-
-Moreover, this repository includes features for constructing a phrase bank from a provided text or an open corpus, enabling users to create their own personalized phrase banks.
-
-```bash
-pip install openphrasebank
-```
-
-<!-- end quickstart -->
-
 <!-- start why-use-phrase-bank -->
 ## Why Use Phrase Bank
   
@@ -56,6 +42,23 @@ The difference of word tree between STEM and ...
 
   
 <!-- end open-phrase-bank -->
+
+
+<!-- start quickstart -->
+
+## Quickstart
+
+This repository provides an openly accessible phrase bank, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers a ready-to-use phrase bank)
+
+Moreover, this repository includes features for constructing a phrase bank from a provided text or an open corpus, enabling users to create their own personalized phrase banks.
+
+```bash
+pip install openphrasebank
+```
+
+<!-- end quickstart -->
+
+
 <!-- start custom -->
 ## Get a Self-defined Phrasebank in 3 Steps
 
