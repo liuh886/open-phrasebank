@@ -124,32 +124,81 @@ def filter_frequent_ngrams(ngram_counts,
             frequent_count.append(count)
     return frequent_ngrams[:most_freq], frequent_count
 
+import re
+# Define a function to apply multiple filters
+def is_valid_phrase(phrase):
+    # Check for digits
+    if any(char.isdigit() for char in phrase):
+        return False
+    # Check for specific special characters
+    if any(char in phrase for char in ['(', ')', '-', '*', '/', '?', '=', '!', '@', '→',':', 'et al',
+                                       '#', '$', '%', '^', '&', '<', '>', '[', ']', '  ', '\'',
+                                       '{', '}', '|', '\\', '~', '`', '+', '_','•', ',', '/',
+                                       '‘','’', '“', '”', '.', '—', '…', '°', '€', '£', '¥']):
+        return False
+
+    # remove normal phrases
+    words_to_match = ['women', 'man', 'to do', 'grammar','icv','noun','dog','cat','v','c','p','d','P','re']
+    if any(re.search(r'\b' + re.escape(word) + r'\b', phrase) for word in words_to_match):
+        return False
+
+    # Check for uppercase letters not at the start
+    if re.search(r'\s[A-Z]', phrase):
+        return False
+    return True
+
+
+import spacy
+from spacy.language import Language
+
+nlp = spacy.load("en_core_web_sm")  # Consider loading this dynamically or ensuring it's initialized properly in your application
+
+def extract_verb_phrases(doc):
+    """Extract verb phrases from a SpaCy document."""
+    verb_phrases = [ ' '.join([tok.lower_ for tok in token.subtree]).replace(' ,', ',') for token in doc if token.pos_ == 'VERB']
+    return verb_phrases
+
+def extract_expanded_noun_phrases(doc):
+    """Extract expanded noun phrases from a SpaCy document."""
+    expanded_noun_phrases = []
+    for chunk in doc.noun_chunks:
+        start = chunk.start
+        while start > 0 and doc[start - 1].pos_ in ['ADJ', 'ADV']:
+            start -= 1
+        end = chunk.end
+        if end < len(doc) and doc[end].pos_ == 'ADP':
+            while end < len(doc) and doc[end].pos_ != 'PUNCT':
+                end += 1
+        expanded_noun_phrases.append(doc[start:end].text)
+    return expanded_noun_phrases
+
+
 from IPython.display import HTML
+import json
+
 def display_word_tree(phrases, keyword):
-    js_code = """
+    json_phrases = json.dumps([["Phrases"]] + [[phrase] for phrase in phrases])
+    js_code = f"""
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {packages:['wordtree']});
-      google.charts.setOnLoadCallback(drawChart);
-    
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Phrases'],
-          {}
-        ]);
-    
+    console.log('Loading charts...');
+    google.charts.load('current', {{packages:['wordtree']}});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {{
+        console.log('Drawing chart...');
+        var data = google.visualization.arrayToDataTable({json_phrases});
         var options = {{
-          wordtree: {{
-            format: 'implicit',
-            word: '{}'
-          }}
+            wordtree: {{
+                type: 'double',
+                format: 'implicit',
+                word: '{keyword}'
+            }}
         }};
-    
         var chart = new google.visualization.WordTree(document.getElementById('wordtree_basic'));
         chart.draw(data, options);
-      }}
+    }}
     </script>
     <div id="wordtree_basic" style="width: 900px; height: 500px;"></div>
-    """.format(phrases, keyword)
-    
+    """
     return HTML(js_code)

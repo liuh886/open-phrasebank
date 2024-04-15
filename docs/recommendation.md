@@ -8,7 +8,7 @@ Using [various-complements-plugin](https://github.com/tadashi-aikawa/obsidian-va
 
 ![](https://tadashi-aikawa.github.io/docs-obsidian-various-complements-plugin/resources/custom-dictionary-complement-demo.gif)
 
-You can just paste the [link of phrasebank](https://open-phrasebank.readthedocs.io/en/latest/phasebank.html) into the customed dictionary path, or download it into you obsidian vault, then you can use it in Obsidian.
+You can just save the [phrasebank](https://open-phrasebank.readthedocs.io/en/latest/phasebank.html) into the dictionary path, then you will get auto complete when you are typing in Obsidian.
 
 If you are get used to tab completion in VSCode, you can set use TAB key to trigger the accept of auto-completion.
 

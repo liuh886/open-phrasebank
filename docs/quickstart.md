@@ -2,5 +2,5 @@
 
 ```{include} ../README.md
 :start-after: <!-- start quickstart -->
-:end-before: <!-- end why-use-phrase-bank -->
+:end-before: <!-- end quickstart -->
 ```

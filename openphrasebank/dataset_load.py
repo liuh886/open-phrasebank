@@ -4,7 +4,15 @@ from datasets import load_dataset
 from tqdm import tqdm
 
 def flatten(nested_list):
-    """Flatten nested list structure."""
+    """Flatten nested list structure.
+
+    Args:
+        nested_list (list): A nested list structure.
+
+    Yields:
+        object: The flattened elements of the nested list.
+
+    """
     for item in nested_list:
         if isinstance(item, list):
             yield from flatten(item)
@@ -12,7 +20,17 @@ def flatten(nested_list):
             yield item
 
 def tokens_generator(file_path, chunk_size=500):
-    """ Generator function to yield chunks of tokens from a file """
+    """ 
+    Generator function to yield chunks of tokens from a file.
+
+    Parameters:
+    file_path (str): The path to the file containing the tokens.
+    chunk_size (int, optional): The size of each chunk of tokens to yield. Defaults to 500.
+
+    Yields:
+    list: A chunk of tokens from the file.
+
+    """
     tokens = []
     with open(file_path, 'r') as f:
         for line in f:
@@ -77,3 +95,38 @@ def load_and_tokenize_data(dataset_name,
             for sentences in tqdm(list(flatten(dataset['train'][key])), desc=f"Processing {key}"):
                 tokens.extend(word_tokenize(sentences))
         return tokens
+
+
+import fitz  # PyMuPDF
+
+def extract_text_from_pdf(pdf_path, skip_first=1, skip_last=2):
+    """
+    Extract text from specified pages of a PDF.
+
+    Args:
+        pdf_path (str): The path to the PDF file.
+        skip_first (int, optional): The number of pages to skip from the beginning. Defaults to 1.
+        skip_last (int, optional): The number of pages to skip from the end. Defaults to 2.
+
+    Returns:
+        str: The extracted text from the specified pages of the PDF.
+    """
+    doc = fitz.open(pdf_path)
+    text = ""
+    start_page = skip_first if skip_first else 0
+    end_page = len(doc) - skip_last
+
+    for page_number in range(start_page, end_page):
+        page = doc.load_page(page_number)
+        text += page.get_text("text")
+
+    doc.close()
+    return text
+
+import re
+
+def clean_text(text):
+    """Clean and preprocess extracted text."""
+    text = re.sub(r'Page \d+ of \d+', '', text)
+    text = re.sub(r'[\r\n]+', ' ', text)
+    return text.strip()
