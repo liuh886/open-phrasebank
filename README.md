@@ -48,7 +48,7 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 
 
 
-[^1] Over 20 disciplines are available [orieg/elsevier-oa-cc-by · Datasets at Hugging Face](https://huggingface.co/datasets/orieg/elsevier-oa-cc-by)
+[^1]:Over 20 disciplines are available [orieg/elsevier-oa-cc-by · Datasets at Hugging Face](https://huggingface.co/datasets/orieg/elsevier-oa-cc-by)
 
 
 ### English Frequent Phrasebank
