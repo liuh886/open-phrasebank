@@ -1,4 +1,3 @@
-12 species
 1960 to
 1966 to
 4th millennium
@@ -425,6 +424,7 @@ adaptation to climate change
 adaptive capacity
 added value
 address point database
+adjacent slope
 adoption of
 adoption of clean
 advanced oxidation processes
@@ -1248,7 +1248,6 @@ frameworks for
 freshwater ecosystems
 freshwater lakes
 frictional properties of
-from 12
 from 1960
 from 1960 to
 from 1990 to
@@ -2789,6 +2788,7 @@ since the late
 size estimates
 size on
 skin penetration
+slide blocks
 sliding time window method
 slow spreading
 sludge bed

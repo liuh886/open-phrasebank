@@ -2,26 +2,28 @@
 Academic phrasebank is an excellent 
 
 # Open Phrasebank
-[![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest)](https://open-phrasebank.readthedocs.io/en/latest/?badge=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank)
 
+<!-- start why-use-phrase-bank -->
+
+[![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest)](https://open-phrasebank.readthedocs.io/en/latest/?badge=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank)
 
 Building your own phrasebank.
 
-<!-- start why-use-phrase-bank -->
+This repository provides an accessible ==phrase bank==, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers a ready-to-use phrase bank)
+
+Moreover, this repository includes features for constructing a phrase bank from a provided text or an open corpus.
+
 ## Why Use Phrase Bank
   
 ### Case 1 - Typing in Flow
 
 ![](https://i.imgur.com/MGDIqly.gif)
 
+Boosting typing experience with phrasebank.🚀
 
 ### Case 2 - Academic Writing
 
-You can further customized the phrasebank according your needs, e.g. for certain discipline, for certain style (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text).
-
-<iframe src="docs/_static/wordtree_climate_geoscience.html" width="100%" height="500px">
-  <p>The wordtree of climate in geoscience ngrams from Elsevier OA CC-BY</p>
-</iframe>
+You can further customized the phrasebank according to your needs, e.g. for certain discipline, for certain style (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text), as long as you can find good ingredients.
 
 <!-- end why-use-phrase-bank -->
 
@@ -59,15 +61,6 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 
 ## Quickstart
 
-  
-
-This repository provides an openly accessible phrase bank, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE. (Note: This library does not provide IDE or auto-complete functions but offers a ready-to-use phrase bank)
-
-  
-
-Moreover, this repository includes features for constructing a phrase bank from a provided text or an open corpus, enabling users to create their own personalized phrase banks.
-
-  
 
 ```bash
 
