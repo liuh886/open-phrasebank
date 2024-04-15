@@ -1,4 +1,4 @@
-# Application Recomendation
+# Application Recommendation
 
 ```{toctree}
 :hidden:
