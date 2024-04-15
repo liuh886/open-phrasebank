@@ -33,7 +33,7 @@ You can further customized the phrasebank according to your needs, e.g. for cert
 
 ### Academic Phrasebank
 
-Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from Arts, Business, STEM to Social Sciences [^1]. 
+Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from Arts, Business, STEM to Social Sciences[^1]. 
 
 | No. | Phrasebank                                                                                                                 | Source                                                                                                               | N-gram Length | Lines | Comments                                                                |
 | --- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------- | ----- | ----------------------------------------------------------------------- |
@@ -48,7 +48,7 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 
 
 
-[^1] Over 20 diciplines [orieg/elsevier-oa-cc-by · Datasets at Hugging Face](https://huggingface.co/datasets/orieg/elsevier-oa-cc-by)
+[^1] Over 20 disciplines are available [orieg/elsevier-oa-cc-by · Datasets at Hugging Face](https://huggingface.co/datasets/orieg/elsevier-oa-cc-by)
 
 
 ### English Frequent Phrasebank
