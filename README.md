@@ -5,8 +5,7 @@
 <!-- start why-use-phrase-bank -->
 
 
-![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank)
-
+![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/liuh886/open_phrasebank/workflows%2Flint.yml) ![GitHub License](https://img.shields.io/github/license/liuh886/open_phrasebank)
 
 
 Building your own phrasebank.
@@ -139,3 +138,6 @@ You can either contribute the phrasebank or the code. Check out our [contributin
 | elsevier_phrasebank |                                                                                                                    |
 
 <!-- end issues -->
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F7WYJ6B)
