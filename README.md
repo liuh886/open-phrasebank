@@ -1,9 +1,11 @@
 
+
 # Open Phrasebank
 
 <!-- start why-use-phrase-bank -->
 
 [![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest)](https://open-phrasebank.readthedocs.io/en/latest/?badge=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank)
+
 
 Building your own phrasebank.
 
@@ -19,15 +21,20 @@ Moreover, this repository includes features for constructing a phrase bank from 
 
 Boosting typing experience with phrasebank.🚀
 
+
 ### Case 2 - Academic Writing
 
-You can further customized the phrasebank according to your needs, e.g. for certain discipline, for certain style (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text), as long as you can find good ingredients.
+  
+
+You can further customize the phrasebank according to your needs, e.g. for certain disciplines, for certain styles (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text), as long as you can find good ingredients.
+
 
 <!-- end why-use-phrase-bank -->
 
-## Open Phrasebanks
 
+## Open Phrasebanks
 <!-- start open-phrase-bank -->
+
 ### Academic Phrasebank
 
 Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from Arts, Business, STEM to Social Sciences[^1]. 
@@ -41,11 +48,9 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 | 5   | 📍[elsevier_awl](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank.txt)                 | 2                                                                                                                    | 2-6           | 994   | The Elsevier phrasebank that contains  AWL (Zhihao, 2024)               |
 | 6   | 📍[elsevier_ENVI_EART](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_ENVI_EART.txt) | 2                                                                                                                    | 2-7           | 3,700 | Environment & Earth Science 3700 collection (Zhihao 2024)               |
 | 7   | 📍[elsevier_PSYC_SOCI](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_PSYC_SOCI.txt) | 2                                                                                                                    | 2-7           | 3,700 | Social Science & Psychology 3700 collection (Zhihao 2024)               |
-| 8   | 📍 [elsevier_MEDI](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_MEDI.txt)          | 2                                                                                                                    | 2-7           | 3700  | Medicine 3700 collection (Zhihao 2024)                                  |
+| 8   | 📍 [elsevier_MEDI](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_MEDI.txt)          | 2                                                                                                                    | 2-7           | 3,700 | Medicine 3700 collection (Zhihao 2024)                                  |
 
-
-
-[^1]:Over 20 disciplines are available [orieg/elsevier-oa-cc-by · Datasets at Hugging Face](https://huggingface.co/datasets/orieg/elsevier-oa-cc-by)
+[^1]:Over 20 diciplines [orieg/elsevier-oa-cc-by · Datasets at Hugging Face](https://huggingface.co/datasets/orieg/elsevier-oa-cc-by)
 
 
 ### English Frequent Phrasebank
@@ -54,7 +59,6 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 | --- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------- | ------ | ------------------------------------------------------------- |
 | 1   | 📍[google-10000-english.txt](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt)                 | Google Books Corpus | 1             | 10,000 | The 10,000 most common English words from Google Books Corpus |
 | 2   | 📍[Wordlist 1200.txt](https://raw.githubusercontent.com/ManiacDC/TypingAid/master/Wordlists/Wordlist%201200%20frequency%20weighted.txt) | Internet            | 1             | 2,000  | The 2,000 most common English words                           |
-
 <!-- end open-phrase-bank -->
 
 
@@ -62,10 +66,10 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 
 <!-- start quickstart -->
 
+You can download the pre-made phrasebank from the table. If you do require a custom one, go forward.
+
 ```bash
-
 pip install openphrasebank
-
 ```
 
 <!-- end quickstart -->
@@ -76,7 +80,7 @@ pip install openphrasebank
 
 ![](https://i.imgur.com/qssU2VP.png)
 
-Below is an example based on n-gram frequency. More example available in [documents](https://open-phrasebank.readthedocs.io/en/latest/quickstart/index.html).
+Below is an example based on n-gram frequency. [More examples, e.g. extract from PDF, are available in documents](https://open-phrasebank.readthedocs.io/en/latest/quickstart/index.html).
 
 ### Step 1 - Load and Tokenize the Data
 ``` python
@@ -116,21 +120,20 @@ with open('../elsevier_phrasebank_PSYC_SOCI.txt', 'w') as file:
     for line in sorted_phrases:
         file.write(line + '\n')
 ```
+
 <!-- end custom -->
 
 ## How to Contribute
 
-You can either contribute the phrasebank or [the code](https://open-phrasebank.readthedocs.io/en/latest/contributing.html). 
+You can either contribute the phrasebank or the code. Check out our [contributing](https://open-phrasebank.readthedocs.io/en/latest/contributing.html). 
 
 <!-- start issues -->
 ### Known Issues
 
-### academic_phrasebank
 
-
-Due to the table in the PDF file not being properly handled, many sentences were not extracted correctly. 
-
-### elsevier_phrasebank
-
+| Phrasebank          |                                                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| academic_phrasebank | Due to the table in the PDF file not being properly handled, many sentences were not extracted correctly. (zhihao) |
+| elsevier_phrasebank |                                                                                                                    |
 
 <!-- end issues -->

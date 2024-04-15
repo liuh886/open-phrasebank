@@ -7,7 +7,8 @@ from tqdm import tqdm
 
 
 def flatten(nested_list):
-    """Flatten nested list structure.
+    """
+    Flatten nested list structure.
 
     Args:
         nested_list (list): A nested list structure.
@@ -24,7 +25,7 @@ def flatten(nested_list):
 
 
 def tokens_generator(file_path, chunk_size=500):
-    """ 
+    """
     Generator function to yield chunks of tokens from a file.
 
     Parameters:
