@@ -44,7 +44,9 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 | 5   | 📍[elsevier_awl](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank.txt)                 | 2                                                                                                                    | 2-6           | 994   | The Elsevier phrasebank that contains  AWL (Zhihao, 2024)               |
 | 6   | 📍[elsevier_ENVI_EART](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_ENVI_EART.txt) | 2                                                                                                                    | 2-7           | 3,700 | Environment & Earth Science 3700 collection (Zhihao 2024)               |
 | 7   | 📍[elsevier_PSYC_SOCI](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_PSYC_SOCI.txt) | 2                                                                                                                    | 2-7           | 3,700 | Social Science & Psychology 3700 collection (Zhihao 2024)               |
-| 8   | 📍 [elsevier_MEDI](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_MEDI.txt)          | 2                                                                                                                    | 2-7           |       |                                                                         |
+| 8   | 📍 [elsevier_MEDI](https://github.com/liuh886/open_phrasebank/blob/main/phrasebanks/elsevier_phrasebank_MEDI.txt)          | 2                                                                                                                    | 2-7           | 3700  | Medicine 3700 collection (Zhihao 2024)                                  |
+
+
 
 [^1] Over 20 diciplines [orieg/elsevier-oa-cc-by · Datasets at Hugging Face](https://huggingface.co/datasets/orieg/elsevier-oa-cc-by)
 
@@ -55,6 +57,7 @@ Elsevier OA CC-BY contains 40k articles from Elsevier's journals, including from
 | --- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------- | ------ | ------------------------------------------------------------- |
 | 1   | 📍[google-10000-english.txt](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt)                 | Google Books Corpus | 1             | 10,000 | The 10,000 most common English words from Google Books Corpus |
 | 2   | 📍[Wordlist 1200.txt](https://raw.githubusercontent.com/ManiacDC/TypingAid/master/Wordlists/Wordlist%201200%20frequency%20weighted.txt) | Internet            | 1             | 2,000  | The 2,000 most common English words                           |
+
 <!-- end open-phrase-bank -->
 
 <!-- start quickstart -->

@@ -18,7 +18,7 @@ Interesting? Let's get check out available [phrasebands](https://open-phrasebank
 phasebank
 quickstart
 customisation/index
-recommendation/index
+reccomendation/index
 ```
 
 ```{toctree}
