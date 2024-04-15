@@ -40,14 +40,14 @@ class UtilitiesTestCase(unittest.TestCase):
         def mock_tokens_generator():
             yield ['I', 'love', 'GitHub']
             yield ['GitHub', 'is', 'awesome']
-        
+
         # Call the generate_multiple_ngrams function with the mock tokens generator
         ngram_freqs = generate_multiple_ngrams(mock_tokens_generator(), n_values=[2, 3], prune_threshold=3)
         
         # Assert the correctness of the generated n-gram frequencies
         expected_ngram_freqs = defaultdict(Counter)
         expected_ngram_freqs[2].update({('I', 'love'): 1, ('love', 'GitHub'): 1, ('GitHub', 'is'): 1, ('is', 'awesome'): 1})
-        expected_ngram_freqs[3].update({('I', 'love', 'GitHub'): 1, ('love', 'GitHub', 'is'): 1, ('GitHub', 'is', 'awesome'): 1})
+        expected_ngram_freqs[3].update({('I', 'love', 'GitHub'): 1, ('GitHub', 'is', 'awesome'): 1})
         self.assertEqual(ngram_freqs, expected_ngram_freqs)
 
 if __name__ == '__main__':

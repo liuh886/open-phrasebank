@@ -58,8 +58,8 @@ def generate_multiple_ngrams(tokens_generator,
 
     """
     ngram_freqs = defaultdict(Counter)
-    i = 0
-    for tokens in tokens_generator:
+    i = 1
+    for tokens in tokens_generator:  # Each tokens is a line of text
         for n in n_values:
             if len(tokens) >= n:
                 ngram_freqs[n].update(ngrams(tokens, n))
