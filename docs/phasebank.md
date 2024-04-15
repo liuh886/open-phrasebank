@@ -1,4 +1,4 @@
-# Available phasebanks
+# Available phrasebanks
 
 ```{include} ../README.md
 :start-after: <!-- start open-phrase-bank -->
