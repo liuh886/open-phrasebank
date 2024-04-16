@@ -1,26 +1,31 @@
-name: Build and Push Docker Image
+name: Build and Push Docker image
 
 on:
   push:
     branches:
-      - main
-    #paths:
-    #  - 'openphrasebank/**'  # Example path to trigger the workflow only on changes in the 'src/' directory
+      - main  # Set this to the branch you want to build from
 
 jobs:
-  build-and-push:
+  build_and_push_to_docker_hub:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: liuh886  # Your Docker Hub username
+          password: ${{ secrets.DOCKER_API_TOKEN }}
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+        uses: docker/setup-buildx-action@v2
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v2
+      - name: Build and push
+        uses: docker/build-push-action@v3
         with:
-          tags: |
-            liuh886/open-phrasebank:latest
-            liuh886/open-phrasebank:${{ github.sha }}
-          secrets: ${{ secrets.DOCKER_API_TOKEN }}
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: liuh886/open-phrasebank:latest  # Modify if needed
+
