@@ -5,3 +5,4 @@ sphinx-copybutton
 sphinx-design
 sphinx-inline-tabs
 sphinx-tabs
+tomli>=1.0.0
