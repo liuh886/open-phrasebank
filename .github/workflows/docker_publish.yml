@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'openphrasebank/**'  # Example path to trigger the workflow only on changes in the 'src/' directory
+    #paths:
+    #  - 'openphrasebank/**'  # Example path to trigger the workflow only on changes in the 'src/' directory
 
 jobs:
   build-and-push:
