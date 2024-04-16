@@ -96,7 +96,7 @@ def filter_frequent_ngrams(ngram_counts,
 
     if exclude_list is None:
         exclude_list = ['Table', 'table', 'Fig', 'Figs', 'fig', 'figs', 'Figure', 'figure', 'Appendix', 'Declaration', 'Acknowledgement',
-                        'Kim', 'Liu', 'Wang', 'Zhang', 'Li', 'Wu',
+                        'Kim', 'Liu', 'Wang', 'Zhang', 'Li', 'Wu','Qian','Sun',
                         'Chen', 'Yang', 'Zhao', 'Zhu', 'Xu', 'Sun', 'Ma', 'Hu', 'Guo', 'He', 'Gao', 'Luo', 'Lin', 'Huang', 'Zhou',
                         'Elisabeth', 'Michael', 'Thomas', 'Andreas', 'Stefan', 'Christoph', 'Martin', 'Frank', 'Peter',
                         '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100', '&D', '&', 'R',
