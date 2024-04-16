@@ -18,13 +18,15 @@ Moreover, this repository includes features for constructing a phrase bank from 
 
 ![](https://i.imgur.com/MGDIqly.gif)
 
+<iframe src="https://raw.githubusercontent.com/liuh886/open-phrasebank/main/docs/wordtree_that_geo.html" frameborder="0" style="border:none; overflow:hidden; width:100%; height:510px;" allowTransparency="true"></iframe>
 
 ### Academic Writing 🕵️‍♀
 
 You can further customize the phrasebank according to your needs, e.g. for certain disciplines, for certain styles (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text), as long as you can find good ingredients.
 
-<!-- end why-use-phrase-bank -->
 
+
+<!-- end why-use-phrase-bank -->
 
 ## Open Phrasebanks
 <!-- start open-phrase-bank -->
