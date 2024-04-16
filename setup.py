@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="openphrasebank",
-    version="0.1.0",
+    version="0.1.1",
     author="Zhihao",
     author_email="liuzhihao109@foxmial.com",
-    description="PhraseBank is a utility designed to help users build customized phrasebanks from various texts or corpora.",
+    description="Customize phrasebanks from various texts or corpora.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/liuh886/open-phrasebank",
