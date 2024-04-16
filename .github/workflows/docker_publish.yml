@@ -6,7 +6,8 @@ on:
       - main  # Set this to the branch you want to build from
     paths:
       - 'openphrasebank/**' 
-
+    workflow_dispatch:
+      
 jobs:
   build_and_push_to_docker_hub:
     runs-on: ubuntu-latest
