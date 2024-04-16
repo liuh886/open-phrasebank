@@ -8,7 +8,7 @@ setup(
     description="PhraseBank is a utility designed to help users build customized phrasebanks from various texts or corpora.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/liuh886/open_phrasebank",
+    url="https://github.com/liuh886/open-phrasebank",
     install_requires=[
         'nltk', 
         'pymupdf',

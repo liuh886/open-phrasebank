@@ -7,8 +7,9 @@ Thank you for your interest in Open Phrasebank!✨
 Fork the repository and clone it to your local machine. Then install it in development mode.
 
 ```bash
-git clone https://github.com/liuh886/open_phrasebank.git
-pip install -e open_phrasebank
+git clone https://github.com/liuh886/open-phrasebank.git
+cd open-phrasebank
+pip install -e .
 ```
 
 ## Contribute a phrasebank
