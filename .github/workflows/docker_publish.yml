@@ -23,4 +23,4 @@ jobs:
           tags: |
             liuh886/open-phrasebank:latest
             liuh886/open-phrasebank:${{ github.sha }}
-          token: ${{ secrets.DOCKER_API_TOKEN }}
+          secrets: ${{ secrets.DOCKER_API_TOKEN }}
