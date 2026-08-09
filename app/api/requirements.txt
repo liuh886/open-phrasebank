@@ -1,0 +1,12 @@
+# fasstapi
+fastapi==0.110.1
+sqlmodel==0.0.16
+python-dotenv==1.0.1
+databases==0.9.0
+
+# dev
+pytest
+autopep8
+isort
+flake8
+mypy

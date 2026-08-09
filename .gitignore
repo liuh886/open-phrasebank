@@ -6,5 +6,5 @@ temp_tokens_p_s.json
 .flake8
 .vscode
 .vscode/settings.json
-.egg-info/
+*.egg-info/
 __pycache__/

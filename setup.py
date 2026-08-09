@@ -6,13 +6,13 @@ setup(
     author="Zhihao",
     author_email="liuzhihao109@foxmial.com",
     description="Customize phrasebanks from various texts or corpora.",
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),  # Added encoding here
     long_description_content_type="text/markdown",
     url="https://github.com/liuh886/open-phrasebank",
     install_requires=[
         'nltk', 
         'pymupdf',
-        'tqdm',  
+        'tqdm',
         'datasets', # Huggingface datasets
     ],
     extras_require={
